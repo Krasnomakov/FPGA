@@ -11,5 +11,5 @@ This directory contains several simple implementations for Tang Nano 9K.
 - calculation that takes random input and defines a LED
 - An attempt to implement Travelling Salesman Problem with Verilog
 
-Videos:
-https://drive.google.com/drive/folders/16OCX1T6IbEOpyrXJb8IAvHNTuK4fcK6q 
+Video:
+https://drive.google.com/drive/folders/1G2B-4B-L2WDTOiZBr_922YDmkcjsOWtf?usp=sharing
