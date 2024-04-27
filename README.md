@@ -16,7 +16,7 @@ This directory contains several simple implementations for Tang Nano 9K.
 - An attempt to implement Travelling Salesman Problem with Verilog
 
 ## UART (Open-source FPGA toolchain, Yosys, OSS-CAD)
-This Verilog module, named "screen," orchestrates the control of a display screen, managing its initialization, setup commands, and data transmission processes synchronized with a clock signal. Through defined states and logic, it coordinates the loading of setup instructions and image data, ensuring proper screen operation within a structured framework.
+The Verilog code defines a UART module that receives and transmits data asynchronously. It implements state machines for both receiving and transmitting data, with control logic to manage timing and data flow.
 
 https://learn.lushaylabs.com/tang-nano-9k-debugging/ 
 
