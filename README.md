@@ -1,6 +1,9 @@
 # FPGA
 This repository contains Verilog/C examples with Tang Nano (4K/9K/20K) and Zybo Z7 
 
+Video:
+https://drive.google.com/drive/folders/1G2B-4B-L2WDTOiZBr_922YDmkcjsOWtf?usp=sharing
+
 ## fpga_project 
 This directory contains several simple implementations for Tang Nano 9K. 
 
@@ -11,5 +14,8 @@ This directory contains several simple implementations for Tang Nano 9K.
 - calculation that takes random input and defines a LED
 - An attempt to implement Travelling Salesman Problem with Verilog
 
-Video:
-https://drive.google.com/drive/folders/1G2B-4B-L2WDTOiZBr_922YDmkcjsOWtf?usp=sharing
+## UART
+https://learn.lushaylabs.com/tang-nano-9k-debugging/ 
+
+## screen
+https://learn.lushaylabs.com/tang-nano-9k-graphics/ 
