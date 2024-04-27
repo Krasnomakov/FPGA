@@ -1,0 +1,821 @@
+{
+    "screen": {
+        "inputs": {
+            "clk": {
+                "name": "clk",
+                "size": 1,
+                "value": {}
+            }
+        },
+        "cases": [
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            },
+            {
+                "clk": "0",
+                "io_sclk": "1",
+                "io_sdin": "0",
+                "io_cs": "0",
+                "io_dc": "1",
+                "io_reset": "1"
+            }
+        ]
+    }
+}
