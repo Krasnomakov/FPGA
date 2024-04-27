@@ -4,12 +4,12 @@ This repository contains Verilog/C examples with Tang Nano (4K/9K/20K) and Zybo 
 ## fpga_project 
 This directory contains several simple implementations for Tang Nano 9K. 
 
-- blinky
+- blinky (original tutorial: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-4K/examples/led.html) 
 - simple functions with Verilog
 - pseudo randomness with LSFR
 - pseudo random with state
 - calculation that takes random input and defines a LED
 - An attempt to implement Travelling Salesman Problem with Verilog
 
-Videos:
-https://drive.google.com/drive/folders/16OCX1T6IbEOpyrXJb8IAvHNTuK4fcK6q 
+Video:
+https://drive.google.com/drive/folders/1G2B-4B-L2WDTOiZBr_922YDmkcjsOWtf?usp=sharing
