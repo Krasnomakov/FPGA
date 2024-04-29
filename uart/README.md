@@ -1,31 +1,36 @@
 ![fontys_oled_tangNano.jpg](https://drive.google.com/uc?export=view&id=1Of7XyZnfqRW3BLoUy0Nbts_IfWVlpnaz)
 
-1. **Module and Parameters**:
-   - We're creating a unit called `uart`.
-   - It can have settings like how fast it talks (`BAUD_RATE`).
+The photo depicts TangNano9K communicating via UART protocol with a laptop. Each time a button is pressed bianries, hex and a message "Hello World" are sent. Lightning LEDs also change randomly each time a button is pressed.
 
+uart_explained.v has explicitly commented Verilog
+
+**Summary** 
+
+1. **Module Declaration and Parameters**:
+   - The Verilog module named `uart` is defined. It takes in several parameters, including `DELAY_FRAMES`, which determines the baud rate.
+   
 2. **Input and Output Ports**:
-   - It listens to the clock (`clk`), a signal called `uart_rx`, and a button named `btn1`.
-   - It talks back through a signal called `uart_tx` and controls some LEDs.
+   - The module has input ports `clk`, `uart_rx`, and `btn1`, and an output port `uart_tx`. It also outputs to `led`.
 
 3. **Initialization and Constants**:
-   - We prepare some memory to store received data and set some starting values.
-   - We decide what different states the receiving process can be in, like "waiting for data" or "reading data".
-
-4. **Receiving Data**:
-   - We watch for changes in the `uart_rx` signal and keep track of time.
-   - Depending on what's happening, we switch between different tasks like "reading a start bit" or "waiting for the next bit".
-
+   - Registers for the receiving process (`rxState`, `rxCounter`, `dataIn`, `rxBitNumber`, and `byteReady`) are initialized, along with constants defining different states of the receive process.
+   
+4. **Receive State Machine**:
+   - The `always @(posedge clk)` block defines the behavior of the receive state machine.
+   - It transitions between different states (`RX_STATE_IDLE`, `RX_STATE_START_BIT`, etc.) based on the received UART data and timing.
+   - When a byte is fully received, `byteReady` is set to indicate that data is ready to be processed.
+   
 5. **LED Control**:
-   - When we've received a full byte of data, we light up some LEDs to show what we got.
-
+   - LEDs are controlled based on the received byte. When `byteReady` is set, the lower 6 bits of `dataIn` are inverted and assigned to `led`.
+   
 6. **Initialization and Constants for Transmission**:
-   - We set up memory to hold the message we want to send and set some initial values for sending data.
-   - We decide what different states the sending process can be in, like "waiting to start" or "sending data".
-
-7. **Sending Data**:
-   - Similar to receiving, we keep an eye on time and change what we're doing based on that.
-   - We go through the process of sending out each bit of our message.
+   - Registers for the transmission process (`txState`, `txCounter`, `dataOut`, `txPinRegister`, `txBitNumber`, and `txByteCounter`) are initialized, along with constants defining different states of the transmit process.
+   - A test message is stored in memory.
+   
+7. **Transmit State Machine**:
+   - Similar to the receive state machine, the transmit state machine defines the behavior of transmitting data.
+   - It cycles through different states (`TX_STATE_IDLE`, `TX_STATE_START_BIT`, etc.) to transmit each byte of the test message.
+   - Debouncing is implemented to ensure proper button press detection.
 
 8. **Output Assignment**:
-   - Finally, we decide what to send out through `uart_tx` based on our current state.
+   - Finally, `uart_tx` is assigned based on the value of `txPinRegister`, which controls the UART transmission pin.
