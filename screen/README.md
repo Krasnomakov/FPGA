@@ -3,32 +3,45 @@
 screen_commented.v has explicitly commented Verilog 
 
 **Summary**
+Certainly! Here's a simplified explanation suitable for a Git README:
 
-1. **Module Declaration and Parameters**:
-   - We're making a thing called `screen`.
-   - It needs a setting called `STARTUP_WAIT` to know how long to wait.
+---
 
-2. **Input and Output Ports**:
-   - It listens to a clock (a signal that ticks regularly), and it can talk back using signals called `io_sclk`, `io_sdin`, etc.
+# Screen Module
 
-3. **Initialization and Constants**:
-   - We have different states like "starting up" or "sending data."
-   - We've got some internal counters and flags to keep track of what's happening.
+The Screen module is designed in Verilog for controlling a display screen. It interfaces with a microcontroller or similar device to send data and commands for display operations.
 
-4. **Setting Up the Screen**:
-   - We have a list of commands to send to the screen when it starts up, like "turn off display" or "set screen brightness."
+### Inputs
+- `clk`: Clock signal.
+  
+### Outputs
+- `io_sclk`: Serial clock for data transmission.
+- `io_sdin`: Serial data input.
+- `io_cs`: Chip select signal.
+- `io_dc`: Data/command select signal.
+- `io_reset`: Reset signal.
 
-5. **Sending Commands and Data**:
-   - We send these commands one by one to set up the screen properly.
-   - Once set up, we start sending actual picture data to display.
+### Operation
+- The module initializes by sending startup commands to the screen.
+- It then loads initialization commands and sends them to configure the display.
+- After initialization, it can load and send pixel data for display.
 
-6. **Updating the Screen**:
-   - We keep track of time and which pixel we're sending.
-   - We send each pixel's color information to the screen.
+### States
+- **INIT_POWER**: Initialization power-up state.
+- **LOAD_INIT_CMD**: Loading initialization commands.
+- **SEND**: Sending data.
+- **CHECK_FINISHED_INIT**: Checking if initialization is finished.
+- **LOAD_DATA**: Loading pixel data.
 
-7. **Loading Image Data**:
-   - We've got a file called "image.hex" that contains the picture data.
-   - We read this file and store the image data internally.
+### Files
+- `screen.v`: Verilog code for the screen module.
+- `image.hex`: File containing pixel data for the display.
 
-8. **Clock Cycle Behavior**:
-   - Depending on what state we're in, we do different things each time the clock ticks.
+### Usage
+1. Instantiate the `screen` module in your Verilog project.
+2. Connect the inputs and outputs as per your system requirements.
+3. Ensure the `image.hex` file contains valid pixel data for display.
+
+### Note
+- This module assumes the screen uses a specific communication protocol and initialization sequence. Modify as necessary for compatibility with your display. (SSD1306 driver, 4-wire SPI configuration (the screen must have 7 pins))
+
