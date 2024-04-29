@@ -1,3 +1,4 @@
+![fontys_oled_tangNano.jpg](https://drive.google.com/file/d/1aNiEQmJ_tKlJpHUHUmCUVQRNPRq8hzLe)
 
 1. **Module and Parameters**:
    - We're creating a unit called `uart`.
