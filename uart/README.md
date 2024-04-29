@@ -1,5 +1,4 @@
-![fontys_oled_tangNano.jpg](https://drive.google.com/file/d/1aNiEQmJ_tKlJpHUHUmCUVQRNPRq8hzLe)
-
+![UART_script_tangNano.jpg](https://drive.google.com/file/d/1aNiEQmJ_tKlJpHUHUmCUVQRNPRq8hzLe/view?usp=sharing)
 1. **Module and Parameters**:
    - We're creating a unit called `uart`.
    - It can have settings like how fast it talks (`BAUD_RATE`).
