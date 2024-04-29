@@ -1,4 +1,9 @@
 ![fontys_oled_tangNano.jpg](https://drive.google.com/uc?export=view&id=17m6StBCx-BkY2VH-ZPn8EpSyansv2WSS)
+
+screen_commented.v has explicitly commented Verilog 
+
+**Summary**
+
 1. **Module Declaration and Parameters**:
    - We're making a thing called `screen`.
    - It needs a setting called `STARTUP_WAIT` to know how long to wait.
