@@ -22,3 +22,7 @@ https://learn.lushaylabs.com/tang-nano-9k-debugging/
 The "screen" Verilog module governs the functionality of a display screen by orchestrating its initialization, setup commands, and data transmission processes in tandem with a clock signal. Utilizing defined states and logic, it oversees the loading of setup instructions and image data, ensuring seamless operation of the screen within a structured framework.
 
 https://learn.lushaylabs.com/tang-nano-9k-graphics/ 
+
+## vivado (Vivado/Vitis)
+
+Baremetal Software project with Vivado/Vitis and Zybo Z7 mainly with C. Find various implementations of C for LED-BTN combinations with randomness and different blinking periods.
