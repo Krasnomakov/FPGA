@@ -1,0 +1,2 @@
+arm-none-eabi-ar qc libgpio.a CMakeFiles/gpio.dir/xgpio.c.obj CMakeFiles/gpio.dir/xgpio_extra.c.obj CMakeFiles/gpio.dir/xgpio_g.c.obj CMakeFiles/gpio.dir/xgpio_intr.c.obj CMakeFiles/gpio.dir/xgpio_selftest.c.obj CMakeFiles/gpio.dir/xgpio_sinit.c.obj
+C:/Xilinx/Vitis/2023.2/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-ranlib.exe libgpio.a

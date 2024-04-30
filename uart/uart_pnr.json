@@ -39,7 +39,7 @@
       },
       "attributes": {
         "top": "00000000000000000000000000000001",
-        "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:3.1-168.10"
+        "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:3.1-168.10"
       },
       "ports": {
         "uart_tx": {
@@ -76,7 +76,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C2_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -113,7 +113,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R15C9_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -150,7 +150,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C2_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -187,7 +187,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R18C3_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -224,7 +224,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C10_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -261,7 +261,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C10_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -298,7 +298,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C10_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -335,7 +335,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C10_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -372,7 +372,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R15C4_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -409,7 +409,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C8_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -446,7 +446,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C9_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -483,7 +483,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C7_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -520,7 +520,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R16C9_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:111.1-167.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -557,7 +557,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R15C2_SLICE4",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:43.8-43.68"
           },
           "port_directions": {
             "LSR": "input",
@@ -594,7 +594,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C3_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -631,7 +631,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C3_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -668,7 +668,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C3_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -705,7 +705,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C2_SLICE3",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -742,7 +742,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C2_SLICE5",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -779,7 +779,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C2_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -816,7 +816,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R20C2_SLICE0",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -853,7 +853,7 @@
             "BEL_STRENGTH": "00000000000000000000000000000001",
             "NEXTPNR_BEL": "R17C2_SLICE2",
             "module_not_derived": "00000000000000000000000000000001",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:29.1-70.4|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/cells_map.v:19.7-19.56"
           },
           "port_directions": {
             "LSR": "input",
@@ -6143,7 +6143,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R21C1_IOBB",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:11.22-11.25"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:11.22-11.25"
           },
           "port_directions": {
             "O": "output",
@@ -6767,7 +6767,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R22C1_IOBB",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:11.22-11.25"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:11.22-11.25"
           },
           "port_directions": {
             "O": "output",
@@ -7256,7 +7256,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R16C1_IOBB",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:11.22-11.25"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:11.22-11.25"
           },
           "port_directions": {
             "O": "output",
@@ -8259,7 +8259,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R15C1_IOBA",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:11.22-11.25"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:11.22-11.25"
           },
           "port_directions": {
             "O": "output",
@@ -8501,7 +8501,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C2_IOBB",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:9.11-9.18",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:9.11-9.18",
             "&IO_TYPE=LVCMOS33": "00000000000000000000000000000001"
           },
           "port_directions": {
@@ -8528,7 +8528,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R17C47_IOBA",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:8.11-8.14",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:8.11-8.14",
             "&PULL_MODE=UP": "00000000000000000000000000000001"
           },
           "port_directions": {
@@ -8771,7 +8771,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R29C2_IOBA",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:10.12-10.19",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:10.12-10.19",
             "&IO_TYPE=LVCMOS33": "00000000000000000000000000000001"
           },
           "port_directions": {
@@ -9050,7 +9050,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R26C1_IOBB",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:11.22-11.25"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:11.22-11.25"
           },
           "port_directions": {
             "O": "output",
@@ -9076,7 +9076,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R1C2_IOBA",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:12.11-12.15"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:12.11-12.15"
           },
           "port_directions": {
             "O": "output",
@@ -9606,7 +9606,7 @@
           "attributes": {
             "BEL_STRENGTH": "00000000000000000000000000000110",
             "NEXTPNR_BEL": "R25C1_IOBB",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:11.22-11.25"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:11.22-11.25"
           },
           "port_directions": {
             "O": "output",
@@ -10421,7 +10421,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "2",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10431,7 +10431,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "2",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10441,7 +10441,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "2",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10450,7 +10450,7 @@
           "bits": [ 3878108 ] ,
           "attributes": {
             "ROUTING": "R16C2_X04;R16C2_Q5_X04;1;R16C2_B1;R16C2_X04_B1;1;R16C2_E13;R16C2_Q5_E130;1;R16C3_B2;R16C3_E131_B2;1;R16C2_Q5;;1;R16C2_EW20;R16C2_Q5_EW20;1;R16C3_C1;R16C3_E121_C1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:20.11-20.22"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:20.11-20.22"
           }
         },
         "rxBitNumber_DFFRE_Q_D[0]": {
@@ -10458,7 +10458,7 @@
           "bits": [ 3878107 ] ,
           "attributes": {
             "ROUTING": "R16C2_F1;;1;R16C2_W21;R16C2_F1_W210;1;R16C2_A5;R16C2_W210_A5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10467,7 +10467,7 @@
           "bits": [ 3878105 ] ,
           "attributes": {
             "ROUTING": "R16C3_X02;R16C3_S211_X02;1;R16C3_C2;R16C3_X02_C2;1;R15C2_SN10;R15C2_Q4_SN10;1;R16C2_B2;R16C2_S111_B2;1;R15C2_Q4;;1;R15C2_EW10;R15C2_Q4_EW10;1;R15C3_S21;R15C3_E111_S210;1;R16C3_B1;R16C3_S211_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:20.11-20.22"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:20.11-20.22"
           }
         },
         "rxBitNumber_DFFRE_Q_D[1]": {
@@ -10475,7 +10475,7 @@
           "bits": [ 3878104 ] ,
           "attributes": {
             "ROUTING": "R16C2_F2;;1;R16C2_SN20;R16C2_F2_SN20;1;R15C2_A4;R15C2_N121_A4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10484,7 +10484,7 @@
           "bits": [ 3878102 ] ,
           "attributes": {
             "ROUTING": "R16C2_X03;R16C2_Q4_X03;1;R16C2_B3;R16C2_X03_B3;1;R16C2_E10;R16C2_Q4_E100;1;R16C3_D2;R16C3_E101_D2;1;R16C2_Q4;;1;R16C2_EW10;R16C2_Q4_EW10;1;R16C3_A1;R16C3_E111_A1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:20.11-20.22"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:20.11-20.22"
           }
         },
         "rxBitNumber_DFFRE_Q_D[2]": {
@@ -10492,7 +10492,7 @@
           "bits": [ 3878101 ] ,
           "attributes": {
             "ROUTING": "R16C2_F3;;1;R16C2_X06;R16C2_F3_X06;1;R16C2_A4;R16C2_X06_A4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:55.28-55.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10556,7 +10556,7 @@
           "bits": [ 3878079 ] ,
           "attributes": {
             "ROUTING": "R16C10_X04;R16C10_Q5_X04;1;R16C10_D6;R16C10_X04_D6;1;R17C9_D5;R17C9_X04_D5;1;R17C9_B0;R17C9_X04_B0;1;R17C10_W25;R17C10_S111_W250;1;R17C9_X04;R17C9_W251_X04;1;R17C9_D4;R17C9_X04_D4;1;R16C10_SN10;R16C10_Q5_SN10;1;R17C10_B1;R17C10_S111_B1;1;R17C8_B2;R17C8_X04_B2;1;R17C8_D4;R17C8_X04_D4;1;R17C8_X04;R17C8_S251_X04;1;R17C8_B3;R17C8_X04_B3;1;R16C10_Q5;;1;R16C10_W25;R16C10_Q5_W250;1;R16C8_S25;R16C8_W252_S250;1;R17C8_B5;R17C8_S251_B5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:83.11-83.24"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:83.11-83.24"
           }
         },
         "txByteCounter[1]": {
@@ -10564,7 +10564,7 @@
           "bits": [ 3878078 ] ,
           "attributes": {
             "ROUTING": "R16C10_N13;R16C10_Q3_N130;1;R16C10_C6;R16C10_N130_C6;1;R17C9_D0;R17C9_X06_D0;1;R17C9_X06;R17C9_W231_X06;1;R17C9_C5;R17C9_X06_C5;1;R16C10_S13;R16C10_Q3_S130;1;R17C10_W23;R17C10_S131_W230;1;R17C9_B4;R17C9_W231_B4;1;R16C10_S23;R16C10_Q3_S230;1;R17C10_B2;R17C10_S231_B2;1;R17C8_C4;R17C8_X08_C4;1;R17C8_A5;R17C8_S231_A5;1;R17C8_X02;R17C8_S231_X02;1;R17C8_A2;R17C8_X02_A2;1;R16C10_Q3;;1;R16C10_W23;R16C10_Q3_W230;1;R16C8_S23;R16C8_W232_S230;1;R17C8_X08;R17C8_S231_X08;1;R17C8_D3;R17C8_X08_D3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:83.11-83.24"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:83.11-83.24"
           }
         },
         "txByteCounter[3]": {
@@ -10572,7 +10572,7 @@
           "bits": [ 3878077 ] ,
           "attributes": {
             "ROUTING": "R17C9_C0;R17C9_W241_C0;1;R17C9_X03;R17C9_W241_X03;1;R17C9_B5;R17C9_X03_B5;1;R17C9_C4;R17C9_W241_C4;1;R16C10_X05;R16C10_Q2_X05;1;R16C10_B6;R16C10_X05_B6;1;R16C10_SN20;R16C10_Q2_SN20;1;R17C10_B4;R17C10_S121_B4;1;R17C8_D2;R17C8_X03_D2;1;R17C8_C5;R17C8_W242_C5;1;R17C8_X07;R17C8_W242_X07;1;R17C8_A3;R17C8_X07_A3;1;R16C10_Q2;;1;R16C10_S10;R16C10_Q2_S100;1;R17C10_W24;R17C10_S101_W240;1;R17C8_X03;R17C8_W242_X03;1;R17C8_B4;R17C8_X03_B4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:83.11-83.24"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:83.11-83.24"
           }
         },
         "txByteCounter[2]": {
@@ -10580,7 +10580,7 @@
           "bits": [ 3878076 ] ,
           "attributes": {
             "ROUTING": "R16C10_W13;R16C10_Q4_W130;1;R16C9_S27;R16C9_W131_S270;1;R17C9_W27;R17C9_S271_W270;1;R17C8_A4;R17C8_W271_A4;1;R17C9_A0;R17C9_X01_A0;1;R16C10_W10;R16C10_Q4_W100;1;R16C9_S20;R16C9_W101_S200;1;R17C9_X07;R17C9_S201_X07;1;R17C9_A5;R17C9_X07_A5;1;R16C10_X03;R16C10_Q4_X03;1;R16C10_A6;R16C10_X03_A6;1;R16C10_S24;R16C10_Q4_S240;1;R17C10_X03;R17C10_S241_X03;1;R17C10_B3;R17C10_X03_B3;1;R17C8_D5;R17C8_S241_D5;1;R17C9_A4;R17C9_X07_A4;1;R17C9_X01;R17C9_S201_X01;1;R17C8_C3;R17C8_S241_C3;1;R16C10_Q4;;1;R16C10_W24;R16C10_Q4_W240;1;R16C8_S24;R16C8_W242_S240;1;R17C8_C2;R17C8_S241_C2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:83.11-83.24"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:83.11-83.24"
           }
         },
         "dataOut_DFFE_Q_CE_LUT3_F_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1": {
@@ -10684,7 +10684,7 @@
           "bits": [ 3878043 ] ,
           "attributes": {
             "ROUTING": "R14C11_F2;;1;R14C11_D7;R14C11_F2_D7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10694,7 +10694,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10704,7 +10704,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10714,7 +10714,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10724,7 +10724,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10734,7 +10734,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10744,7 +10744,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10754,7 +10754,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10764,7 +10764,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10774,7 +10774,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10784,7 +10784,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10794,7 +10794,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10804,7 +10804,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10814,7 +10814,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10824,7 +10824,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10834,7 +10834,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10844,7 +10844,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10854,7 +10854,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10864,7 +10864,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10874,7 +10874,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10884,7 +10884,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10894,7 +10894,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10904,7 +10904,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10914,7 +10914,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10924,7 +10924,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10934,7 +10934,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10944,7 +10944,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "25",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10953,7 +10953,7 @@
           "bits": [ 3877965 ] ,
           "attributes": {
             "ROUTING": "R14C9_N24;R14C9_F4_N240;1;R13C9_X05;R13C9_N241_X05;1;R13C9_C5;R13C9_X05_C5;1;R14C9_F4;;1;R14C9_X07;R14C9_F4_X07;1;R14C9_B7;R14C9_X07_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10970,7 +10970,7 @@
           "bits": [ 3877962 ] ,
           "attributes": {
             "ROUTING": "R14C9_SN20;R14C9_F5_SN20;1;R13C9_C2;R13C9_N121_C2;1;R14C9_F5;;1;R14C9_X08;R14C9_F5_X08;1;R14C9_C7;R14C9_X08_C7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -10987,7 +10987,7 @@
           "bits": [ 3877959 ] ,
           "attributes": {
             "ROUTING": "R14C10_N20;R14C10_F0_N200;1;R13C10_X01;R13C10_N201_X01;1;R13C10_C2;R13C10_X01_C2;1;R14C10_F0;;1;R14C10_EW20;R14C10_F0_EW20;1;R14C9_D7;R14C9_W121_D7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11004,7 +11004,7 @@
           "bits": [ 3877956 ] ,
           "attributes": {
             "ROUTING": "R14C10_SN20;R14C10_F1_SN20;1;R13C10_C0;R13C10_N121_C0;1;R14C10_F1;;1;R14C10_X06;R14C10_F1_X06;1;R14C10_A7;R14C10_X06_A7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11021,7 +11021,7 @@
           "bits": [ 3877953 ] ,
           "attributes": {
             "ROUTING": "R14C10_S22;R14C10_F2_S220;1;R15C10_X01;R15C10_S221_X01;1;R15C10_C2;R15C10_X01_C2;1;R14C10_F2;;1;R14C10_X05;R14C10_F2_X05;1;R14C10_B7;R14C10_X05_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11039,7 +11039,7 @@
           "bits": [ 3877950 ] ,
           "attributes": {
             "ROUTING": "R14C10_N23;R14C10_F3_N230;1;R13C10_X08;R13C10_N231_X08;1;R13C10_C4;R13C10_X08_C4;1;R14C10_F3;;1;R14C10_N13;R14C10_F3_N130;1;R14C10_C7;R14C10_N130_C7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11057,7 +11057,7 @@
           "bits": [ 3877947 ] ,
           "attributes": {
             "ROUTING": "R14C10_N24;R14C10_F4_N240;1;R13C10_C3;R13C10_N241_C3;1;R14C10_F4;;1;R14C10_X07;R14C10_F4_X07;1;R14C10_D7;R14C10_X07_D7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11066,7 +11066,7 @@
           "bits": [ 3878255 ] ,
           "attributes": {
             "ROUTING": "R17C7_Q4;;1;R17C7_W24;R17C7_Q4_W240;1;R17C5_W24;R17C5_W242_W240;1;R17C3_S24;R17C3_W242_S240;1;R19C3_S24;R19C3_S242_S240;1;R21C3_S25;R21C3_S242_S250;1;R23C3_S20;R23C3_S252_S200;1;R25C3_S20;R25C3_S202_S200;1;R27C3_S20;R27C3_S202_S200;1;R29C3_W20;R29C3_S202_W200;1;R29C2_X01;R29C2_W201_X01;1;R29C2_A0;R29C2_X01_A0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:81.5-81.18"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:81.5-81.18"
           }
         },
         "dataOut_DFFE_Q_CE_LUT3_F_I1_LUT4_I0_I3_ALU_SUM_COUT_ALU_COUT_SUM[22]": {
@@ -11074,7 +11074,7 @@
           "bits": [ 3877944 ] ,
           "attributes": {
             "ROUTING": "R14C10_S10;R14C10_F5_S100;1;R15C10_C3;R15C10_S101_C3;1;R14C10_F5;;1;R14C10_EW10;R14C10_F5_EW10;1;R14C11_A7;R14C11_E111_A7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11092,7 +11092,7 @@
           "bits": [ 3877941 ] ,
           "attributes": {
             "ROUTING": "R14C7_N13;R14C7_F1_N130;1;R13C7_W23;R13C7_N131_W230;1;R13C7_C0;R13C7_W230_C0;1;R14C7_F1;;1;R14C7_S13;R14C7_F1_S130;1;R15C7_A1;R15C7_S131_A1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11108,7 +11108,7 @@
           "bits": [ 3877937 ] ,
           "attributes": {
             "ROUTING": "R14C7_EW10;R14C7_F3_EW10;1;R14C8_A7;R14C8_E111_A7;1;R14C7_F3;;1;R14C7_E13;R14C7_F3_E130;1;R14C7_N26;R14C7_E130_N260;1;R13C7_C2;R13C7_N261_C2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11124,7 +11124,7 @@
           "bits": [ 3877934 ] ,
           "attributes": {
             "ROUTING": "R14C7_E10;R14C7_F5_E100;1;R14C8_E24;R14C8_E101_E240;1;R14C8_B7;R14C8_E240_B7;1;R14C7_F5;;1;R14C7_SN20;R14C7_F5_SN20;1;R13C7_C3;R13C7_N121_C3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11134,7 +11134,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "3",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11143,7 +11143,7 @@
           "bits": [ 3877931 ] ,
           "attributes": {
             "ROUTING": "R14C8_X06;R14C8_F3_X06;1;R14C8_C7;R14C8_X06_C7;1;R14C8_F3;;1;R14C8_SN20;R14C8_F3_SN20;1;R13C8_C0;R13C8_N121_C0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11153,7 +11153,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "3",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11162,7 +11162,7 @@
           "bits": [ 3877928 ] ,
           "attributes": {
             "ROUTING": "R14C8_X07;R14C8_F4_X07;1;R14C8_D7;R14C8_X07_D7;1;R14C8_F4;;1;R14C8_N24;R14C8_F4_N240;1;R13C8_X05;R13C8_N241_X05;1;R13C8_C5;R13C8_X05_C5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11172,7 +11172,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "3",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11181,7 +11181,7 @@
           "bits": [ 3877925 ] ,
           "attributes": {
             "ROUTING": "R14C8_EW10;R14C8_F5_EW10;1;R14C9_S25;R14C9_E111_S250;1;R15C9_A2;R15C9_S251_A2;1;R14C8_F5;;1;R14C8_N13;R14C8_F5_N130;1;R13C8_E23;R13C8_N131_E230;1;R13C8_C4;R13C8_E230_C4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11191,7 +11191,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "3",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11200,7 +11200,7 @@
           "bits": [ 3877922 ] ,
           "attributes": {
             "ROUTING": "R14C9_S20;R14C9_F0_S200;1;R15C9_X01;R15C9_S201_X01;1;R15C9_B2;R15C9_X01_B2;1;R14C9_F0;;1;R14C9_S13;R14C9_F0_S130;1;R15C9_C4;R15C9_S131_C4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11218,7 +11218,7 @@
           "bits": [ 3877919 ] ,
           "attributes": {
             "ROUTING": "R14C9_S10;R14C9_F1_S100;1;R15C9_C2;R15C9_S101_C2;1;R14C9_F1;;1;R14C9_E13;R14C9_F1_E130;1;R14C9_N26;R14C9_E130_N260;1;R13C9_C0;R13C9_N261_C0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11227,7 +11227,7 @@
           "bits": [ 3878210 ] ,
           "attributes": {
             "ROUTING": "R17C10_F1;;1;R17C10_N21;R17C10_F1_N210;1;R16C10_A5;R16C10_N211_A5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11236,7 +11236,7 @@
           "bits": [ 3877916 ] ,
           "attributes": {
             "ROUTING": "R14C9_S22;R14C9_F2_S220;1;R15C9_D2;R15C9_S221_D2;1;R14C9_F2;;1;R14C9_N22;R14C9_F2_N220;1;R13C9_X01;R13C9_N221_X01;1;R13C9_C3;R13C9_X01_C3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11245,7 +11245,7 @@
           "bits": [ 3878208 ] ,
           "attributes": {
             "ROUTING": "R17C10_F2;;1;R17C10_N22;R17C10_F2_N220;1;R16C10_X07;R16C10_N221_X07;1;R16C10_A3;R16C10_X07_A3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11254,7 +11254,7 @@
           "bits": [ 3877913 ] ,
           "attributes": {
             "ROUTING": "R14C9_SN10;R14C9_F3_SN10;1;R13C9_C4;R13C9_N111_C4;1;R14C9_F3;;1;R14C9_X06;R14C9_F3_X06;1;R14C9_A7;R14C9_X06_A7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11263,7 +11263,7 @@
           "bits": [ 3878206 ] ,
           "attributes": {
             "ROUTING": "R17C10_F3;;1;R17C10_SN20;R17C10_F3_SN20;1;R16C10_A4;R16C10_N121_A4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11272,7 +11272,7 @@
           "bits": [ 3877910 ] ,
           "attributes": {
             "ROUTING": "R14C11_C4;R14C11_X05_C4;1;R14C11_F0;;1;R14C11_X05;R14C11_F0_X05;1;R14C11_B7;R14C11_X05_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11290,7 +11290,7 @@
           "bits": [ 3877907 ] ,
           "attributes": {
             "ROUTING": "R14C11_C5;R14C11_X06_C5;1;R14C11_F1;;1;R14C11_X06;R14C11_F1_X06;1;R14C11_C7;R14C11_X06_C7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11299,7 +11299,7 @@
           "bits": [ 3878203 ] ,
           "attributes": {
             "ROUTING": "R17C10_F4;;1;R17C10_SN10;R17C10_F4_SN10;1;R16C10_A2;R16C10_N111_A2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:152.38-152.55|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11308,7 +11308,7 @@
           "bits": [ 3877903 ] ,
           "attributes": {
             "ROUTING": "R15C7_D5;R15C7_S111_D5;1;R14C7_F2;;1;R14C7_SN10;R14C7_F2_SN10;1;R15C7_B1;R15C7_S111_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11324,7 +11324,7 @@
           "bits": [ 3877899 ] ,
           "attributes": {
             "ROUTING": "R14C7_S24;R14C7_F4_S240;1;R15C7_D4;R15C7_S241_D4;1;R14C7_F4;;1;R14C7_S10;R14C7_F4_S100;1;R15C7_C1;R15C7_S101_C1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11334,7 +11334,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "2",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11343,7 +11343,7 @@
           "bits": [ 3877895 ] ,
           "attributes": {
             "ROUTING": "R14C8_EW20;R14C8_F0_EW20;1;R14C7_S26;R14C7_W121_S260;1;R15C7_SEL1;R15C7_S261_SEL1;1;R14C8_F0;;1;R14C8_S10;R14C8_F0_S100;1;R15C8_E20;R15C8_S101_E200;1;R15C9_D5;R15C9_E201_D5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11353,7 +11353,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "2",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11362,7 +11362,7 @@
           "bits": [ 3877891 ] ,
           "attributes": {
             "ROUTING": "R14C8_S21;R14C8_F1_S210;1;R15C8_X02;R15C8_S211_X02;1;R15C8_D4;R15C8_X02_D4;1;R14C8_F1;;1;R14C8_W10;R14C8_F1_W100;1;R14C7_S20;R14C7_W101_S200;1;R15C7_D1;R15C7_S201_D1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11372,7 +11372,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "2",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11381,7 +11381,7 @@
           "bits": [ 3877887 ] ,
           "attributes": {
             "ROUTING": "R15C7_SEL0;R15C7_X08_SEL0;1;R14C8_S13;R14C8_F2_S130;1;R15C8_W27;R15C8_S131_W270;1;R15C7_X08;R15C7_W271_X08;1;R15C7_SEL2;R15C7_X08_SEL2;1;R14C8_F2;;1;R14C8_SN10;R14C8_F2_SN10;1;R15C8_D5;R15C8_S111_D5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:125.18-125.31|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11426,7 +11426,7 @@
           "bits": [ 3877876 ] ,
           "attributes": {
             "ROUTING": "R17C8_Q5;;1;R17C8_E13;R17C8_Q5_E130;1;R17C8_A7;R17C8_E130_A7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:80.11-80.18"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:80.11-80.18"
           }
         },
         "txState_DFFE_Q_CE_MUX2_LUT5_O_I0": {
@@ -11442,7 +11442,7 @@
           "bits": [ 3877873 ] ,
           "attributes": {
             "ROUTING": "R17C8_Q2;;1;R17C8_W13;R17C8_Q2_W130;1;R17C8_B7;R17C8_W130_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:80.11-80.18"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:80.11-80.18"
           }
         },
         "txState_DFFE_Q_D[0]": {
@@ -11450,7 +11450,7 @@
           "bits": [ 3878283 ] ,
           "attributes": {
             "ROUTING": "R16C8_OF4;;1;R16C8_S13;R16C8_OF4_S130;1;R17C8_W27;R17C8_S131_W270;1;R17C7_N27;R17C7_W271_N270;1;R16C7_E27;R16C7_N271_E270;1;R16C8_A0;R16C8_E271_A0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:0.0-0.0|c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:112.5-166.12|c:\\OSS-CA~1\\bin\\../share/yosys/techmap.v:575.21-575.22",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:0.0-0.0|c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:112.5-166.12|c:\\OSS-CA~1\\bin\\../share/yosys/techmap.v:575.21-575.22",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11477,7 +11477,7 @@
           "bits": [ 3877866 ] ,
           "attributes": {
             "ROUTING": "R17C9_Q4;;1;R17C9_W10;R17C9_Q4_W100;1;R17C8_C6;R17C8_W101_C6;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:80.11-80.18"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:80.11-80.18"
           }
         },
         "txState_DFFE_Q_CE": {
@@ -11492,7 +11492,7 @@
           "bits": [ 3877863 ] ,
           "attributes": {
             "ROUTING": "R17C9_Q0;;1;R17C9_W20;R17C9_Q0_W200;1;R17C7_X01;R17C7_W202_X01;1;R17C7_A7;R17C7_X01_A7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:80.11-80.18"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:80.11-80.18"
           }
         },
         "txPinRegister_DFFSE_Q_D_LUT4_F_I0_MUX2_LUT5_O_I1_LUT4_F_I2[2]": {
@@ -11509,7 +11509,7 @@
           "bits": [ 3877860 ] ,
           "attributes": {
             "ROUTING": "R17C8_Q3;;1;R17C8_EW10;R17C8_Q3_EW10;1;R17C7_B7;R17C7_W111_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:80.11-80.18"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:80.11-80.18"
           }
         },
         "txPinRegister_DFFSE_Q_D_LUT4_F_I0_MUX2_LUT5_O_1_S0[3]": {
@@ -11551,7 +11551,7 @@
           "bits": [ 3877846 ] ,
           "attributes": {
             "ROUTING": "R20C3_Q5;;1;R20C3_N13;R20C3_Q5_N130;1;R20C3_A2;R20C3_N130_A2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "dataIn[7]": {
@@ -11559,7 +11559,7 @@
           "bits": [ 3877844 ] ,
           "attributes": {
             "ROUTING": "R20C3_Q0;;1;R20C3_X05;R20C3_Q0_X05;1;R20C3_A5;R20C3_X05_A5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "uart_rx_IBUF_I_O[1]": {
@@ -11645,7 +11645,7 @@
           "bits": [ 3877825 ] ,
           "attributes": {
             "ROUTING": "R16C6_F2;;1;R16C6_D7;R16C6_F2_D7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11655,7 +11655,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11664,7 +11664,7 @@
           "bits": [ 3877822 ] ,
           "attributes": {
             "ROUTING": "R17C6_W10;R17C6_Q2_W100;1;R17C5_C3;R17C5_W101_C3;1;R17C6_Q2;;1;R17C6_N13;R17C6_Q2_N130;1;R16C6_B1;R16C6_N131_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[13]": {
@@ -11673,7 +11673,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11682,7 +11682,7 @@
           "bits": [ 3877818 ] ,
           "attributes": {
             "ROUTING": "R17C3_EW10;R17C3_Q3_EW10;1;R17C4_A3;R17C4_E111_A3;1;R17C3_Q3;;1;R17C3_N13;R17C3_Q3_N130;1;R16C3_E23;R16C3_N131_E230;1;R16C4_B2;R16C4_E231_B2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "rxCounter[2]": {
@@ -11690,7 +11690,7 @@
           "bits": [ 3877816 ] ,
           "attributes": {
             "ROUTING": "R18C4_E13;R18C4_Q5_E130;1;R18C4_A7;R18C4_E130_A7;1;R18C4_Q5;;1;R18C4_N25;R18C4_Q5_N250;1;R16C4_X04;R16C4_N252_X04;1;R16C4_B3;R16C4_X04_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[2]": {
@@ -11699,7 +11699,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11708,7 +11708,7 @@
           "bits": [ 3877812 ] ,
           "attributes": {
             "ROUTING": "R17C5_X07;R17C5_Q4_X07;1;R17C5_A2;R17C5_X07_A2;1;R17C5_Q4;;1;R17C5_W13;R17C5_Q4_W130;1;R17C4_N27;R17C4_W131_N270;1;R16C4_B4;R16C4_N271_B4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[3]": {
@@ -11717,7 +11717,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11726,7 +11726,7 @@
           "bits": [ 3877808 ] ,
           "attributes": {
             "ROUTING": "R18C4_X07;R18C4_Q4_X07;1;R18C4_B7;R18C4_X07_B7;1;R18C4_Q4;;1;R18C4_N24;R18C4_Q4_N240;1;R16C4_X01;R16C4_N242_X01;1;R16C4_B5;R16C4_X01_B5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[4]": {
@@ -11735,7 +11735,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11744,7 +11744,7 @@
           "bits": [ 3877804 ] ,
           "attributes": {
             "ROUTING": "R17C5_N13;R17C5_Q5_N130;1;R16C5_B0;R16C5_N131_B0;1;R17C5_Q5;;1;R17C5_EW20;R17C5_Q5_EW20;1;R17C4_D3;R17C4_W121_D3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[5]": {
@@ -11753,7 +11753,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11762,7 +11762,7 @@
           "bits": [ 3877800 ] ,
           "attributes": {
             "ROUTING": "R17C5_N20;R17C5_Q0_N200;1;R16C5_X07;R16C5_N201_X07;1;R16C5_B1;R16C5_X07_B1;1;R17C5_Q0;;1;R17C5_EW10;R17C5_Q0_EW10;1;R17C4_B3;R17C4_W111_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[6]": {
@@ -11771,7 +11771,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11780,7 +11780,7 @@
           "bits": [ 3877796 ] ,
           "attributes": {
             "ROUTING": "R17C5_S13;R17C5_Q1_S130;1;R17C5_B2;R17C5_S130_B2;1;R17C5_Q1;;1;R17C5_N21;R17C5_Q1_N210;1;R16C5_B2;R16C5_N211_B2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[7]": {
@@ -11789,7 +11789,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11798,7 +11798,7 @@
           "bits": [ 3877792 ] ,
           "attributes": {
             "ROUTING": "R17C5_N25;R17C5_N111_N250;1;R16C5_B5;R16C5_N251_B5;1;R17C5_A3;R17C5_N111_A3;1;R18C5_SN10;R18C5_Q2_SN10;1;R18C5_Q2;;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "rxCounter[11]": {
@@ -11806,7 +11806,7 @@
           "bits": [ 3877790 ] ,
           "attributes": {
             "ROUTING": "R17C6_N21;R17C6_Q1_N210;1;R16C6_B0;R16C6_N211_B0;1;R17C6_Q1;;1;R17C6_EW10;R17C6_Q1_EW10;1;R17C5_B3;R17C5_W111_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[12]": {
@@ -11815,7 +11815,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11825,7 +11825,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11834,7 +11834,7 @@
           "bits": [ 3877784 ] ,
           "attributes": {
             "ROUTING": "R18C5_SN20;R18C5_Q5_SN20;1;R17C5_C2;R17C5_N121_C2;1;R18C5_Q5;;1;R18C5_N25;R18C5_Q5_N250;1;R16C5_X04;R16C5_N252_X04;1;R16C5_B3;R16C5_X04_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[8]": {
@@ -11843,7 +11843,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11852,7 +11852,7 @@
           "bits": [ 3877780 ] ,
           "attributes": {
             "ROUTING": "R18C5_N20;R18C5_Q0_N200;1;R16C5_X01;R16C5_N202_X01;1;R16C5_B4;R16C5_X01_B4;1;R17C5_D2;R17C5_N101_D2;1;R18C5_N10;R18C5_Q0_N100;1;R18C5_Q0;;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "byteReady_DFFE_Q_CE_LUT3_F_I2_LUT3_I1_F_MUX2_LUT5_O_S0_ALU_SUM_COUT[10]": {
@@ -11861,7 +11861,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11871,7 +11871,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11880,7 +11880,7 @@
           "bits": [ 3877774 ] ,
           "attributes": {
             "ROUTING": "R15C4_SN10;R15C4_Q5_SN10;1;R16C4_B1;R16C4_S111_B1;1;R15C4_Q5;;1;R15C4_S25;R15C4_Q5_S250;1;R17C4_X02;R17C4_S252_X02;1;R17C4_C3;R17C4_X02_C3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:18.12-18.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:18.12-18.21"
           }
         },
         "$PACKER_VCC_NET": {
@@ -11896,7 +11896,7 @@
           "attributes": {
             "ROUTING": " ",
             "unused_bits": "13",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:38.25-38.27",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11941,7 +11941,7 @@
           "bits": [ 3877754 ] ,
           "attributes": {
             "ROUTING": "R16C4_N21;R16C4_F1_N210;1;R15C4_X08;R15C4_N211_X08;1;R15C4_SEL0;R15C4_X08_SEL0;1;R16C4_F1;;1;R16C4_X06;R16C4_F1_X06;1;R16C4_A6;R16C4_X06_A6;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11950,7 +11950,7 @@
           "bits": [ 3877752 ] ,
           "attributes": {
             "ROUTING": "R15C4_OF0;;1;R15C4_E10;R15C4_OF0_E100;1;R15C4_A5;R15C4_E100_A5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:0.0-0.0|c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:30.5-69.12|c:\\OSS-CA~1\\bin\\../share/yosys/techmap.v:575.21-575.22",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:0.0-0.0|c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:30.5-69.12|c:\\OSS-CA~1\\bin\\../share/yosys/techmap.v:575.21-575.22",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -11991,7 +11991,7 @@
           "bits": [ 3877744 ] ,
           "attributes": {
             "ROUTING": "R17C4_S22;R17C4_S121_S220;1;R18C4_C4;R18C4_S221_C4;1;R16C4_F5;;1;R16C4_SN20;R16C4_F5_SN20;1;R17C4_B7;R17C4_S121_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12009,7 +12009,7 @@
           "bits": [ 3877741 ] ,
           "attributes": {
             "ROUTING": "R17C5_S22;R17C5_S121_S220;1;R18C5_C5;R18C5_S221_C5;1;R16C5_F3;;1;R16C5_SN20;R16C5_F3_SN20;1;R17C5_W26;R17C5_S121_W260;1;R17C4_C7;R17C4_W261_C7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12018,7 +12018,7 @@
           "bits": [ 3878181 ] ,
           "attributes": {
             "ROUTING": "R16C9_F1;;1;R16C9_S13;R16C9_F1_S130;1;R17C9_A2;R17C9_S131_A2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12027,7 +12027,7 @@
           "bits": [ 3877738 ] ,
           "attributes": {
             "ROUTING": "R16C5_X03;R16C5_F4_X03;1;R16C5_A6;R16C5_X03_A6;1;R16C5_F4;;1;R16C5_S24;R16C5_F4_S240;1;R18C5_C0;R18C5_S242_C0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12043,7 +12043,7 @@
           "bits": [ 3877735 ] ,
           "attributes": {
             "ROUTING": "R16C5_S25;R16C5_F5_S250;1;R18C5_X02;R18C5_S252_X02;1;R18C5_C2;R18C5_X02_C2;1;R16C5_F5;;1;R16C5_EW10;R16C5_F5_EW10;1;R16C6_A7;R16C6_E111_A7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12061,7 +12061,7 @@
           "bits": [ 3877732 ] ,
           "attributes": {
             "ROUTING": "R16C6_S20;R16C6_F0_S200;1;R17C6_X01;R17C6_S201_X01;1;R17C6_C1;R17C6_X01_C1;1;R16C6_F0;;1;R16C6_X05;R16C6_F0_X05;1;R16C6_B7;R16C6_X05_B7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12070,7 +12070,7 @@
           "bits": [ 3878173 ] ,
           "attributes": {
             "ROUTING": "R16C9_F2;;1;R16C9_EW10;R16C9_F2_EW10;1;R16C8_W25;R16C8_W111_W250;1;R16C7_A4;R16C7_W251_A4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12079,7 +12079,7 @@
           "bits": [ 3877729 ] ,
           "attributes": {
             "ROUTING": "R16C6_S10;R16C6_F1_S100;1;R17C6_C2;R17C6_S101_C2;1;R16C6_F1;;1;R16C6_X06;R16C6_F1_X06;1;R16C6_C7;R16C6_X06_C7;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12095,7 +12095,7 @@
           "bits": [ 3877726 ] ,
           "attributes": {
             "ROUTING": "R16C4_D6;R16C4_F2_D6;1;R16C4_F2;;1;R16C4_W10;R16C4_F2_W100;1;R16C3_S24;R16C3_W101_S240;1;R17C3_C3;R17C3_S241_C3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12113,7 +12113,7 @@
           "bits": [ 3877723 ] ,
           "attributes": {
             "ROUTING": "R16C4_X07;R16C4_F4_X07;1;R16C4_B6;R16C4_X07_B6;1;R16C4_F4;;1;R16C4_E10;R16C4_F4_E100;1;R16C5_S20;R16C5_E101_S200;1;R17C5_C4;R17C5_S201_C4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12122,7 +12122,7 @@
           "bits": [ 3878167 ] ,
           "attributes": {
             "ROUTING": "R16C9_F3;;1;R16C9_X06;R16C9_F3_X06;1;R16C9_A4;R16C9_X06_A4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:140.36-140.51|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12131,7 +12131,7 @@
           "bits": [ 3877720 ] ,
           "attributes": {
             "ROUTING": "R16C5_S13;R16C5_F0_S130;1;R17C5_C5;R17C5_S131_C5;1;R16C5_F0;;1;R16C5_W10;R16C5_F0_W100;1;R16C4_C6;R16C4_W101_C6;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12147,7 +12147,7 @@
           "bits": [ 3877717 ] ,
           "attributes": {
             "ROUTING": "R16C5_S10;R16C5_F1_S100;1;R17C5_C0;R17C5_S101_C0;1;R16C5_F1;;1;R16C5_X06;R16C5_F1_X06;1;R16C5_C6;R16C5_X06_C6;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12164,7 +12164,7 @@
           "bits": [ 3877714 ] ,
           "attributes": {
             "ROUTING": "R16C5_E13;R16C5_F2_E130;1;R16C5_S26;R16C5_E130_S260;1;R17C5_C1;R17C5_S261_C1;1;R16C5_F2;;1;R16C5_X05;R16C5_F2_X05;1;R16C5_B6;R16C5_X05_B6;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:44.30-44.43|c:\\OSS-CA~1\\bin\\../share/yosys/gowin/arith_map.v:34.28-34.29",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12224,7 +12224,7 @@
           "bits": [ 3877700 ] ,
           "attributes": {
             "ROUTING": "R20C2_N21;R20C2_W111_N210;1;R20C2_A3;R20C2_N210_A3;1;R20C3_Q2;;1;R20C3_EW10;R20C3_Q2_EW10;1;R20C2_S21;R20C2_W111_S210;1;R21C2_A4;R21C2_S211_A4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "dataIn[0]": {
@@ -12232,7 +12232,7 @@
           "bits": [ 3877698 ] ,
           "attributes": {
             "ROUTING": "R17C2_Q2;;1;R17C2_X05;R17C2_Q2_X05;1;R17C2_A5;R17C2_X05_A5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "byteReady_DFFE_CE_Q[0]": {
@@ -12256,7 +12256,7 @@
           "bits": [ 3877693 ] ,
           "attributes": {
             "ROUTING": "R17C2_A4;R17C2_X07_A4;1;R20C2_Q0;;1;R20C2_SN20;R20C2_Q0_SN20;1;R19C2_N22;R19C2_N121_N220;1;R17C2_X07;R17C2_N222_X07;1;R17C2_A2;R17C2_X07_A2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "byteReady_DFFE_CE_Q[1]": {
@@ -12280,7 +12280,7 @@
           "bits": [ 3877688 ] ,
           "attributes": {
             "ROUTING": "R20C2_X01;R20C2_Q2_X01;1;R20C2_A0;R20C2_X01_A0;1;R20C2_Q2;;1;R20C2_S22;R20C2_Q2_S220;1;R21C2_X01;R21C2_S221_X01;1;R21C2_A1;R21C2_X01_A1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "byteReady_DFFE_CE_Q[2]": {
@@ -12304,7 +12304,7 @@
           "bits": [ 3877683 ] ,
           "attributes": {
             "ROUTING": "R20C2_N13;R20C2_Q5_N130;1;R20C2_A2;R20C2_N130_A2;1;R20C2_Q5;;1;R20C2_S25;R20C2_Q5_S250;1;R21C2_A3;R21C2_S251_A3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "byteReady_DFFE_CE_Q[3]": {
@@ -12328,7 +12328,7 @@
           "bits": [ 3877678 ] ,
           "attributes": {
             "ROUTING": "R20C2_X06;R20C2_Q3_X06;1;R20C2_A5;R20C2_X06_A5;1;R20C2_Q3;;1;R20C2_S13;R20C2_Q3_S130;1;R21C2_A0;R21C2_S131_A0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:19.11-19.17"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:19.11-19.17"
           }
         },
         "byteReady_DFFE_CE_Q[4]": {
@@ -12375,7 +12375,7 @@
           "bits": [ 3877670 ] ,
           "attributes": {
             "ROUTING": "R21C2_CE0;R21C2_X08_CE0;1;R18C3_EW10;R18C3_Q3_EW10;1;R18C2_N21;R18C2_W111_N210;1;R17C2_CE2;R17C2_N211_CE2;1;R21C2_CE1;R21C2_X08_CE1;1;R18C3_Q3;;1;R18C3_S23;R18C3_Q3_S230;1;R20C3_W23;R20C3_S232_W230;1;R20C2_S23;R20C2_W231_S230;1;R21C2_X08;R21C2_S231_X08;1;R21C2_CE2;R21C2_X08_CE2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:21.5-21.14"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:21.5-21.14"
           }
         },
         "btn1_IBUF_I_O_MUX2_LUT8_O_I1_MUX2_LUT7_O_I1_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1": {
@@ -12800,7 +12800,7 @@
           "bits": [ 3877557 ] ,
           "attributes": {
             "ROUTING": "R15C7_S24;R15C7_W241_S240;1;R16C7_C0;R16C7_S241_C0;1;R17C9_C7;R17C9_X05_C7;1;R15C9_S26;R15C9_F6_S260;1;R17C9_X05;R17C9_S262_X05;1;R17C9_C6;R17C9_X05_C6;1;R15C8_S24;R15C8_W101_S240;1;R17C8_C0;R17C8_S242_C0;1;R15C9_W10;R15C9_F6_W100;1;R15C8_W24;R15C8_W101_W240;1;R15C6_N24;R15C6_W242_N240;1;R14C6_SEL3;R14C6_N241_SEL3;1;R16C7_C3;R16C7_S261_C3;1;R15C9_X03;R15C9_F6_X03;1;R15C9_A0;R15C9_X03_A0;1;R15C9_F6;;1;R15C9_W26;R15C9_F6_W260;1;R15C7_S26;R15C7_W262_S260;1;R17C7_D4;R17C7_S262_D4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:0.0-0.0|c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:112.5-166.12|c:\\OSS-CA~1\\bin\\../share/yosys/techmap.v:575.21-575.22",
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:0.0-0.0|c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:112.5-166.12|c:\\OSS-CA~1\\bin\\../share/yosys/techmap.v:575.21-575.22",
             "force_downto": "00000000000000000000000000000001"
           }
         },
@@ -12834,7 +12834,7 @@
           "bits": [ 3877551 ] ,
           "attributes": {
             "ROUTING": "R14C7_N20;R14C7_N101_N200;1;R12C7_D1;R12C7_N202_D1;1;R15C7_Q4;;1;R15C7_N10;R15C7_Q4_N100;1;R14C7_B4;R14C7_N101_B4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[2]": {
@@ -12842,7 +12842,7 @@
           "bits": [ 3877550 ] ,
           "attributes": {
             "ROUTING": "R13C7_N22;R13C7_Q2_N220;1;R12C7_X01;R12C7_N221_X01;1;R12C7_C1;R12C7_X01_C1;1;R13C7_Q2;;1;R13C7_S22;R13C7_Q2_S220;1;R14C7_X01;R14C7_S221_X01;1;R14C7_B3;R14C7_X01_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[0]": {
@@ -12850,7 +12850,7 @@
           "bits": [ 3877549 ] ,
           "attributes": {
             "ROUTING": "R12C7_W25;R12C7_N111_W250;1;R12C7_B1;R12C7_W250_B1;1;R13C7_Q0;;1;R13C7_SN10;R13C7_Q0_SN10;1;R14C7_B1;R14C7_S111_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[1]": {
@@ -12858,7 +12858,7 @@
           "bits": [ 3877548 ] ,
           "attributes": {
             "ROUTING": "R14C7_N23;R14C7_N131_N230;1;R12C7_X02;R12C7_N232_X02;1;R12C7_A1;R12C7_X02_A1;1;R15C7_Q5;;1;R15C7_N13;R15C7_Q5_N130;1;R14C7_B2;R14C7_N131_B2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "btn1_IBUF_I_O_MUX2_LUT6_O_S0_MUX2_LUT6_O_I1_MUX2_LUT5_O_I1": {
@@ -12882,7 +12882,7 @@
           "bits": [ 3877540 ] ,
           "attributes": {
             "ROUTING": "R12C7_SEL2;R12C7_X08_SEL2;1;R13C7_N23;R13C7_Q3_N230;1;R12C7_X08;R12C7_N231_X08;1;R12C7_SEL0;R12C7_X08_SEL0;1;R13C7_Q3;;1;R13C7_SN20;R13C7_Q3_SN20;1;R14C7_B5;R14C7_S121_B5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "btn1_IBUF_I_O_MUX2_LUT6_O_S0_MUX2_LUT6_O_I0_MUX2_LUT5_O_I1": {
@@ -12906,7 +12906,7 @@
           "bits": [ 3877536 ] ,
           "attributes": {
             "ROUTING": "R14C9_N25;R14C9_N111_N250;1;R12C9_W25;R12C9_N252_W250;1;R12C7_X04;R12C7_W252_X04;1;R12C7_SEL1;R12C7_X04_SEL1;1;R15C9_Q5;;1;R15C9_SN10;R15C9_Q5_SN10;1;R14C9_W21;R14C9_N111_W210;1;R14C8_B0;R14C8_W211_B0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "btn1_IBUF_I_O_MUX2_LUT6_O_S0_MUX2_LUT6_O_I1": {
@@ -12930,7 +12930,7 @@
           "bits": [ 3877532 ] ,
           "attributes": {
             "ROUTING": "R13C10_S13;R13C10_Q3_S130;1;R13C10_D7;R13C10_S130_D7;1;R13C10_Q3;;1;R13C10_SN20;R13C10_Q3_SN20;1;R14C10_B4;R14C10_S121_B4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[20]": {
@@ -12938,7 +12938,7 @@
           "bits": [ 3877531 ] ,
           "attributes": {
             "ROUTING": "R13C10_N13;R13C10_Q4_N130;1;R13C10_C7;R13C10_N130_C7;1;R13C10_Q4;;1;R13C10_S24;R13C10_Q4_S240;1;R14C10_X03;R14C10_S241_X03;1;R14C10_B3;R14C10_X03_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[19]": {
@@ -12946,7 +12946,7 @@
           "bits": [ 3877530 ] ,
           "attributes": {
             "ROUTING": "R14C10_N27;R14C10_N131_N270;1;R13C10_B7;R13C10_N271_B7;1;R15C10_Q2;;1;R15C10_N13;R15C10_Q2_N130;1;R14C10_B2;R14C10_N131_B2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[18]": {
@@ -12954,7 +12954,7 @@
           "bits": [ 3877529 ] ,
           "attributes": {
             "ROUTING": "R13C10_E13;R13C10_Q0_E130;1;R13C10_A7;R13C10_E130_A7;1;R13C10_Q0;;1;R13C10_SN10;R13C10_Q0_SN10;1;R14C10_B1;R14C10_S111_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[17]": {
@@ -12962,7 +12962,7 @@
           "bits": [ 3877527 ] ,
           "attributes": {
             "ROUTING": "R13C10_EW20;R13C10_Q2_EW20;1;R13C9_D6;R13C9_W121_D6;1;R13C10_Q2;;1;R13C10_S10;R13C10_Q2_S100;1;R14C10_S24;R14C10_S101_S240;1;R14C10_B0;R14C10_S240_B0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[16]": {
@@ -12970,7 +12970,7 @@
           "bits": [ 3877526 ] ,
           "attributes": {
             "ROUTING": "R13C9_N13;R13C9_Q2_N130;1;R13C9_C6;R13C9_N130_C6;1;R13C9_Q2;;1;R13C9_SN20;R13C9_Q2_SN20;1;R14C9_B5;R14C9_S121_B5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[15]": {
@@ -12978,7 +12978,7 @@
           "bits": [ 3877525 ] ,
           "attributes": {
             "ROUTING": "R13C9_X08;R13C9_Q5_X08;1;R13C9_B6;R13C9_X08_B6;1;R13C9_Q5;;1;R13C9_S25;R13C9_Q5_S250;1;R14C9_B4;R14C9_S251_B4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[14]": {
@@ -12986,7 +12986,7 @@
           "bits": [ 3877524 ] ,
           "attributes": {
             "ROUTING": "R13C9_X03;R13C9_Q4_X03;1;R13C9_A6;R13C9_X03_A6;1;R13C9_Q4;;1;R13C9_SN10;R13C9_Q4_SN10;1;R14C9_B3;R14C9_S111_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[13]": {
@@ -12994,7 +12994,7 @@
           "bits": [ 3877522 ] ,
           "attributes": {
             "ROUTING": "R14C9_X02;R14C9_S231_X02;1;R14C9_D6;R14C9_X02_D6;1;R13C9_Q3;;1;R13C9_S23;R13C9_Q3_S230;1;R14C9_B2;R14C9_S231_B2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[12]": {
@@ -13002,7 +13002,7 @@
           "bits": [ 3877521 ] ,
           "attributes": {
             "ROUTING": "R13C9_S13;R13C9_Q0_S130;1;R14C9_C6;R14C9_S131_C6;1;R13C9_Q0;;1;R13C9_S10;R13C9_Q0_S100;1;R14C9_S24;R14C9_S101_S240;1;R14C9_B1;R14C9_S240_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[11]": {
@@ -13010,7 +13010,7 @@
           "bits": [ 3877520 ] ,
           "attributes": {
             "ROUTING": "R15C9_N24;R15C9_Q4_N240;1;R14C9_X05;R14C9_N241_X05;1;R14C9_B6;R14C9_X05_B6;1;R15C9_Q4;;1;R15C9_N13;R15C9_Q4_N130;1;R14C9_B0;R14C9_N131_B0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[10]": {
@@ -13018,7 +13018,7 @@
           "bits": [ 3877519 ] ,
           "attributes": {
             "ROUTING": "R13C8_EW10;R13C8_Q4_EW10;1;R13C9_S21;R13C9_E111_S210;1;R14C9_A6;R14C9_S211_A6;1;R13C8_Q4;;1;R13C8_S24;R13C8_Q4_S240;1;R14C8_X03;R14C8_S241_X03;1;R14C8_B5;R14C8_X03_B5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[9]": {
@@ -13026,7 +13026,7 @@
           "bits": [ 3877517 ] ,
           "attributes": {
             "ROUTING": "R13C8_W13;R13C8_Q5_W130;1;R13C8_D2;R13C8_W130_D2;1;R13C8_Q5;;1;R13C8_SN20;R13C8_Q5_SN20;1;R14C8_B4;R14C8_S121_B4;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[8]": {
@@ -13034,7 +13034,7 @@
           "bits": [ 3877516 ] ,
           "attributes": {
             "ROUTING": "R13C8_E13;R13C8_Q0_E130;1;R13C8_C2;R13C8_E130_C2;1;R13C8_Q0;;1;R13C8_SN10;R13C8_Q0_SN10;1;R14C8_B3;R14C8_S111_B3;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[7]": {
@@ -13042,7 +13042,7 @@
           "bits": [ 3877515 ] ,
           "attributes": {
             "ROUTING": "R13C8_X04;R13C8_N252_X04;1;R13C8_B2;R13C8_X04_B2;1;R15C8_Q5;;1;R15C8_N25;R15C8_Q5_N250;1;R14C8_X04;R14C8_N251_X04;1;R14C8_B2;R14C8_X04_B2;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[6]": {
@@ -13050,7 +13050,7 @@
           "bits": [ 3877514 ] ,
           "attributes": {
             "ROUTING": "R14C8_N27;R14C8_N131_N270;1;R13C8_A2;R13C8_N271_A2;1;R15C8_Q4;;1;R15C8_N13;R15C8_Q4_N130;1;R14C8_B1;R14C8_N131_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[24]": {
@@ -13058,7 +13058,7 @@
           "bits": [ 3877512 ] ,
           "attributes": {
             "ROUTING": "R14C11_X08;R14C11_Q5_X08;1;R14C11_C6;R14C11_X08_C6;1;R14C11_Q5;;1;R14C11_X04;R14C11_Q5_X04;1;R14C11_B1;R14C11_X04_B1;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[23]": {
@@ -13066,7 +13066,7 @@
           "bits": [ 3877511 ] ,
           "attributes": {
             "ROUTING": "R14C11_B6;R14C11_X07_B6;1;R14C11_Q4;;1;R14C11_X07;R14C11_Q4_X07;1;R14C11_B0;R14C11_X07_B0;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "txCounter[22]": {
@@ -13074,7 +13074,7 @@
           "bits": [ 3877510 ] ,
           "attributes": {
             "ROUTING": "R14C10_E20;R14C10_N101_E200;1;R14C11_X01;R14C11_E201_X01;1;R14C11_A6;R14C11_X01_A6;1;R15C10_Q3;;1;R15C10_N10;R15C10_Q3_N100;1;R14C10_B5;R14C10_N101_B5;1",
-            "src": "c:\\Users\\artur\\Downloads\\lushayLabs\\tangnano9k-series-examples\\uart\\uart.v:79.12-79.21"
+            "src": "c:\\Users\\artur\\Downloads\\FPGA\\uart\\uart.v:79.12-79.21"
           }
         },
         "btn1_IBUF_I_O_MUX2_LUT6_O_S0[3]": {

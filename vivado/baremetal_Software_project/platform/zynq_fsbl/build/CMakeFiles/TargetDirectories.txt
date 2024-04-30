@@ -1,0 +1,3 @@
+C:/Users/artur/baremetal_Software_project/platform/zynq_fsbl/build/CMakeFiles/fsbl.elf.dir
+C:/Users/artur/baremetal_Software_project/platform/zynq_fsbl/build/CMakeFiles/edit_cache.dir
+C:/Users/artur/baremetal_Software_project/platform/zynq_fsbl/build/CMakeFiles/rebuild_cache.dir
