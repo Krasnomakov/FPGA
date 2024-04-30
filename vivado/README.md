@@ -13,3 +13,6 @@ Then Vitis project must be created. Use code from vitis/zybo/baremetal_software_
 It creates different combinations of BTN-LED functions. 
 From simple to more complicated with randomness and different blinking period.
 
+---
+
+Initial tutorial: https://digilent.com/reference/programmable-logic/guides/getting-started-with-ipi 
