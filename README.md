@@ -26,3 +26,7 @@ https://learn.lushaylabs.com/tang-nano-9k-graphics/
 ## vivado (Vivado/Vitis)
 
 Baremetal Software project with Vivado/Vitis and Zybo Z7 mainly with C. Find various implementations of C for LED-BTN combinations with randomness and different blinking periods.
+
+## screen_text (Open-source FPGA toolchain, Yosys, OSS-CAD)
+In this project, a text engine was developed to dynamically render text onto an OLED screen using pre-defined font bitmaps and mapping character positions to screen pixel addresses. The engine allows for displaying specific characters or strings by initializing memory buffers representing rows of text.
+https://learn.lushaylabs.com/tang-nano-9k-creating-a-text-engine/
