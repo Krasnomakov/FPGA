@@ -19,7 +19,7 @@ https://learn.lushaylabs.com/tang-nano-9k-debugging/
 
 ## screen (Open-source FPGA toolchain, Yosys, OSS-CAD)
 
-The "screen" Verilog module governs the functionality of a display screen by orchestrating its initialization, setup commands, and data transmission processes in tandem with a clock signal. Utilizing defined states and logic, it oversees the loading of setup instructions and image data, ensuring seamless operation of the screen within a structured framework.
+A text engine for rendering text on an OLED display was developed. It involves mapping character codes to screen pixel positions, using pre-defined font bitmaps to convert characters to pixels, and generating the pixel data for displaying text dynamically on the display.
 
 https://learn.lushaylabs.com/tang-nano-9k-graphics/ 
 
