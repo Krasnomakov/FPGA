@@ -46,4 +46,5 @@ original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/mas
 
 ## screen_data (Open-source FPGA toolchain, Yosys, OSS-CAD)
 In this project, the Verilog files define the logic of an FPGA design for displaying text on a screen and handling serial communication. The top.v file serves as the top-level module, text.v generates the text to be displayed, screen.v controls the overall display, uart.v manages serial communication with a computer, and rows.v ensures correct row scanning on the screen.
-https://learn.lushaylabs.com/tang-nano-9k-data-visualization/
+
+tutorial: https://learn.lushaylabs.com/tang-nano-9k-data-visualization/
