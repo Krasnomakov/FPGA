@@ -1,6 +1,7 @@
 This project is a collection of Verilog files and scripts for FPGA development. It uses the Gowin GW1N-9C FPGA and is designed to be run on the Tang Nano 9K board.
 
-![fontys_oled_tangNano.jpg](https://drive.google.com/uc?export=view&id=1dSTmsCxgh-2ixSJW3bSWWJWVRQoWXJmz)
+![fontys_oled_tangNano.jpg](https://drive.google.com/uc?export=view&id=1S8wu7jWpSNCtopK-59J3rLCQz035pJjK)
+
 
 ## Structure
 - top.v, text.v, screen.v, uart.v, rows.v: These are the main Verilog files that define the logic of the FPGA design.
