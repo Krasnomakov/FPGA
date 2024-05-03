@@ -1,6 +1,8 @@
 This project is a collection of Verilog files and scripts for FPGA development. It uses the Gowin GW1N-9C FPGA and is designed to be run on the Tang Nano 9K board.
 
-File Structure
+![fontys_oled_tangNano.jpg](https://drive.google.com/uc?export=view&id=17m6StBCx-BkY2VH-ZPn8EpSyansv2WSS)
+
+## Structure
 - top.v, text.v, screen.v, uart.v, rows.v: These are the main Verilog files that define the logic of the FPGA design.
 - text_tb.v: This is a test bench file for the text.v module.
 - tangnano9k.cst: This is a constraints file for the Tang Nano 9K board.
@@ -10,7 +12,7 @@ File Structure
 - Makefile: This file includes commands for synthesizing the design, placing and routing, generating the bitstream, programming the board, generating and running the simulation, generating the font, and cleaning up build artifacts.
 
 --
-
+## Verilog
 **top.v**: This is the top-level module of the design. It instantiates all other modules and connects them together. It also defines the inputs and outputs of the design, which correspond to the physical pins on the FPGA.
 
 **text.v**: This module is responsible for generating the text that is displayed on the screen. It takes as input the ASCII value of a character and outputs the corresponding pixel data to be displayed.
