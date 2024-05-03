@@ -1,4 +1,4 @@
-// In this code, we've replaced the 6-bit LFSR with a 16-bit LFSR. 
+// In this code the 6-bit LFSR was replaced with a 16-bit LFSR. 
 // The LFSR generates a new pseudo-random number at each 0.5s interval. 
 // The lower 6 bits of the new value are then used to calculate a number between 0 and 5 using the modulo operation. 
 // The result is then used to select which LED to light up. 
