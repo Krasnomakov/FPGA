@@ -9,6 +9,7 @@ This directory contains several simple implementations for Tang Nano 9K.
 
 - original blinky
   tutorial: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-4K/examples/led.html)
+
   forked from: https://github.com/sipeed/TangNano-9K-example/tree/main/led
 - added simple functions with Verilog
 - implemented pseudo randomness with LSFR
@@ -20,12 +21,14 @@ This directory contains several simple implementations for Tang Nano 9K.
 The Verilog code defines a UART module that receives and transmits data asynchronously. It implements state machines for both receiving and transmitting data, with control logic to manage timing and data flow.
 
 tutorial: https://learn.lushaylabs.com/tang-nano-9k-debugging/
+
 forked from: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/uart
 
 ## screen (Open-source FPGA toolchain, Yosys, OSS-CAD)
 A text engine for rendering text on an OLED display was developed. It involves mapping character codes to screen pixel positions, using pre-defined font bitmaps to convert characters to pixels, and generating the pixel data for displaying text dynamically on the display.
 
 tutorial: https://learn.lushaylabs.com/tang-nano-9k-graphics/ 
+
 forked from: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/screen
 
 ## vivado (Vivado/Vitis)
@@ -37,6 +40,7 @@ tutorial: https://digilent.com/reference/programmable-logic/guides/getting-start
 In this project, a text engine was developed to dynamically render text onto an OLED screen using pre-defined font bitmaps and mapping character positions to screen pixel addresses. The engine allows for displaying specific characters or strings by initializing memory buffers representing rows of text.
 
 tutorial: https://learn.lushaylabs.com/tang-nano-9k-creating-a-text-engine/
+
 forked from: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/screen_data
 
 ## screen_data (Open-source FPGA toolchain, Yosys, OSS-CAD)
