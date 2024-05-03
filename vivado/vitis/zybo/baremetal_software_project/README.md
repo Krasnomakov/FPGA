@@ -1,11 +1,12 @@
 **LED_blink_inARow.c** 
-This file contains the main function that controls the LED blinking in a row on the Zybo Z7 board. The blinking period is defined by the BLINK_PERIOD_US constant.
+This file contains the main function that controls the LED blinking in a row on the Zybo Z7 board. The blinking period is increasing for each button. 
 
 **LED_LSFR_flashing copy.c** 
 This code utilises LFSR to make a random number of LEDs flash when a button is pressed.
 Buttons 0, 1, 2 call for different blink periods, while button 3 is not used.
 After a button is pressed and released, the LEDs will continue to flash at the same rate until another button is pressed.
 
+demo: https://drive.google.com/file/d/1Mc3_Um4ucaEKkNTZjSx445TQ9OtgpJt2/view?usp=sharing
 
 **LED_LFSR_flashing.c** 
 This file controls the LED flashing based on a Linear Feedback Shift Register (LFSR) algorithm. The blinking period can be adjusted with the BLINK_PERIOD_US_BTN0 and BLINK_PERIOD_US_BTN1 constants.
