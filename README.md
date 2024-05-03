@@ -8,6 +8,7 @@ My stats on HDLBits: https://hdlbits.01xz.net/wiki/Special:VlgStats/Me
 This directory contains several simple implementations for Tang Nano 9K. 
 
 - original blinky
+
   tutorial: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-4K/examples/led.html)
 
   original code: https://github.com/sipeed/TangNano-9K-example/tree/main/led
