@@ -1,0 +1,75 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\dvi_tx\dvi_tx.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\gowin_pllvr\GW_PLLVR.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\gowin_pllvr\TMDS_PLLVR.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\I2C_Interface.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\OV2640_Controller.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\OV2640_Registers.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\syn_code\syn_gen.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\testpattern.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v'
+Analyzing Verilog file 'C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v'
+Undeclared symbol 'sys_resetn', assumed default net type 'wire'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":122)
+Undeclared symbol 'key_flag', assumed default net type 'wire'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":216)
+WARN  (EX3628) : Redeclaration of ANSI port 'key_flag' is not allowed("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":418)
+WARN  (EX3801) : Parameter 'count_ms' becomes localparam in 'key_flag' with formal parameter declaration list("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":402)
+WARN  (EX3801) : Parameter 'count_20ms' becomes localparam in 'key_flag' with formal parameter declaration list("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":404)
+WARN  (EX3801) : Parameter 'count_500ms' becomes localparam in 'key_flag' with formal parameter declaration list("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":405)
+Compiling module 'video_top'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":1)
+Compiling module 'testpattern'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\testpattern.v":17)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_total'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":127)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_sync'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":128)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_bporch'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":129)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_res'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":130)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_total'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":131)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_sync'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":132)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_bporch'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":133)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_res'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":134)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":157)
+Compiling module 'Reset_Sync'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":373)
+Compiling module 'OV2640_Controller'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\OV2640_Controller.v":1)
+Compiling module 'OV2640_Registers'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\OV2640_Registers.v":1)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\OV2640_Registers.v":36)
+Compiling module 'I2C_Interface(SID=8'h60)'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\I2C_Interface.v":14)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\I2C_Interface.v":81)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\ov2640\I2C_Interface.v":166)
+Compiling module 'key_flag'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":392)
+WARN  (EX3791) : Expression size 31 truncated to fit in target size 30("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":424)
+Compiling module 'Video_Frame_Buffer_Top'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":3014)
+Compiling module '**'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":3013)
+Compiling module 'GW_PLLVR'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\gowin_pllvr\GW_PLLVR.v":8)
+Compiling module 'HyperRAM_Memory_Interface_Top'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3735)
+Compiling module '**'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+WARN  (EX1998) : Net '**' does not have a driver("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+Compiling module 'syn_gen'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\syn_code\syn_gen.v":1)
+Compiling module 'TMDS_PLLVR'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\gowin_pllvr\TMDS_PLLVR.v":9)
+Compiling module 'DVI_TX_Top'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\dvi_tx\dvi_tx.v":1048)
+Compiling module '**'("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\dvi_tx\dvi_tx.v":1047)
+NOTE  (EX0101) : Current top module is "video_top"
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_wd.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+WARN  (EX0211) : The output port "rd_data[10]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+WARN  (EX0211) : The output port "rd_data[5]" of module "~hpram_lane.HyperRAM_Memory_Interface_Top__Z1" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+WARN  (EX0211) : The output port "addr_d[19]" of module "~hpram_init.HyperRAM_Memory_Interface_Top_" has no driver, assigning undriven bits to Z, simulation mismatch possible("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\hyperram_memory_interface\hyperram_memory_interface.v":3734)
+[5%] Running netlist conversion ...
+WARN  (CV0020) : Input PIXDATA[3:0] is unused("C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\src\video_top.v":9)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\impl\gwsynthesis\camera_hdmi.vg" completed
+[100%] Generate report file "C:\Users\artur\Downloads\TangNano-4K-example\camera_hdmi\impl\gwsynthesis\camera_hdmi_syn.rpt.html" completed
+GowinSynthesis finish

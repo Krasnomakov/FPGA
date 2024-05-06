@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-synthesis-project>
+<Project>
+    <Version>beta</Version>
+    <Device id="GW1NR-9C" package="QFN88P" speed="6" partNumber="GW1NR-LV9QN88PC6/I5"/>
+    <FileList>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\bootram_2kx8_0\bootram_2kx8_0.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\bootram_2kx8_1\bootram_2kx8_1.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\bootram_2kx8_2\bootram_2kx8_2.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\bootram_2kx8_3\bootram_2kx8_3.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\gowin_clkdiv\gowin_clkdiv.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\gowin_rpll\gowin_rpll.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\gowin_ip\sram_2kx8\sram_2kx8.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_defines.vh" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_enc.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_hdmi_top.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_openldi.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_tcard.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_term.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_tmds.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_utils.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\hdmi\svo_vdma.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\picomemory.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\picoperipheral.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\picorv32.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\picotiny.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\simpleuart.v" type="verilog"/>
+        <File path="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\hw\spimemio_puya.v" type="verilog"/>
+    </FileList>
+    <OptionList>
+        <Option type="disable_insert_pad" value="0"/>
+        <Option type="global_freq" value="50.000"/>
+        <Option type="looplimit" value="2000"/>
+        <Option type="output_file" value="C:\Users\artur\Downloads\tangNano_9K\TangNano-9K-example\picotiny\project\impl\gwsynthesis\picotiny.vg"/>
+        <Option type="print_all_synthesis_warning" value="0"/>
+        <Option type="ram_rw_check" value="1"/>
+        <Option type="top_module" value="picotiny"/>
+        <Option type="verilog_language" value="verilog-2001"/>
+        <Option type="vhdl_language" value="vhdl-1993"/>
+    </OptionList>
+</Project>
