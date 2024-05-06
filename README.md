@@ -4,7 +4,7 @@ Each directory is a complete and ready to program project with one or several Ve
 
 My stats on HDLBits: https://hdlbits.01xz.net/wiki/Special:VlgStats/Me
 
-## fpga_project (GOWIN EDA, Tang Nano 9K)
+## fpga_project (GOWIN EDA)
 This directory contains several simple implementations for Tang Nano 9K. 
 
 - original blinky
