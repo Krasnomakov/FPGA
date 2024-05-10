@@ -2,91 +2,91 @@
  "Device" : "GW1NR-9C",
  "Files" : [
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/gowin_clkdiv/gowin_clkdiv.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/gowin_clkdiv/gowin_clkdiv.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/gowin_rpll/gowin_rpll.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/gowin_rpll/gowin_rpll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_defines.vh",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_defines.vh",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_enc.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_enc.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_openldi.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_openldi.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_tcard.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_tcard.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_term.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_term.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_tmds.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_tmds.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_vdma.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_vdma.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/simpleuart.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/simpleuart.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/spimemio_puya.v",
+   "Path" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/spimemio_puya.v",
    "Type" : "verilog"
   }
  ],
@@ -94,7 +94,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/project/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/artur/Downloads/FPGA/picotiny/project/impl/temp/rtl_parser.result",
  "Top" : "picotiny",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

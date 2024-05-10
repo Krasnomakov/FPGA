@@ -1,6 +1,3 @@
-//this UART implementation can receive data and make LEDs blink if the received data is 'A', 'B', or 'C'.
-//It can also transmit data when a button is pressed. The transmitted data is "Hello World ".
-
 `default_nettype none
 
 module uart
@@ -22,10 +19,6 @@ reg [12:0] rxCounter = 0;
 reg [7:0] dataIn = 0;
 reg [2:0] rxBitNumber = 0;
 reg byteReady = 0;
-
-reg [31:0] blink_counter = 0; // Counter to control blinking rate
-reg blink_state = 0; // State of blinking (on/off)
-reg [5:0] led_temp = 0; // Temporary storage for LED values
 
 localparam RX_STATE_IDLE = 0;
 localparam RX_STATE_START_BIT = 1;
@@ -76,32 +69,9 @@ always @(posedge clk) begin
     endcase
 end
 
-
-// Check received data (need ABC) and set LED pattern 
 always @(posedge clk) begin
     if (byteReady) begin
-        // Check if the received data is 'A', 'B', or 'C'
-        if (dataIn == 8'h41 || dataIn == 8'h42 || dataIn == 8'h43) begin
-            // Set LED pattern or use a flag to indicate blinking should start
-            led_temp <= 6'b111111; // Example pattern, set all LEDs
-        end else begin
-            led_temp <= 0; // Turn off LEDs
-        end
-    end
-end
-
-// Blinking logic
-always @(posedge clk) begin
-    if (led_temp != 0) begin
-        blink_counter <= blink_counter + 1;
-        if (blink_counter >= 1000000) begin // Adjust this value based on your clock for desired blink rate
-            blink_counter <= 0;
-            blink_state <= ~blink_state;
-        end
-        led <= (blink_state ? led_temp : 0); // Toggle LEDs based on blink_state
-    end else begin
-        led <= 0; // Ensure LEDs are off when not required to blink
-        blink_counter <= 0; // Reset counter
+        led <= ~dataIn[5:0]; 
     end
 end
 

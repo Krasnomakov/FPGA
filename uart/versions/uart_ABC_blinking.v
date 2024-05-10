@@ -1,6 +1,3 @@
-//this UART implementation can receive data and make LEDs blink if the received data is 'A', 'B', or 'C'.
-//It can also transmit data when a button is pressed. The transmitted data is "Hello World ".
-
 `default_nettype none
 
 module uart

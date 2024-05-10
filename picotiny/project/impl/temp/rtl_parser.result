@@ -1,235 +1,235 @@
 [
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_openldi.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_openldi.v",
   "InstLine" : 23,
   "InstName" : "svo_openldi",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_openldi.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_openldi.v",
   "ModuleLine" : 23,
   "ModuleName" : "svo_openldi"
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
   "InstLine" : 178,
   "InstName" : "svo_dim",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
   "ModuleLine" : 178,
   "ModuleName" : "svo_dim",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
     "InstLine" : 219,
     "InstName" : "svo_axis_pipe",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
     "ModuleLine" : 31,
     "ModuleName" : "svo_axis_pipe"
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
   "InstLine" : 359,
   "InstName" : "svo_rect",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
   "ModuleLine" : 359,
   "ModuleName" : "svo_rect"
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_vdma.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_vdma.v",
   "InstLine" : 23,
   "InstName" : "svo_vdma",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_vdma.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_vdma.v",
   "ModuleLine" : 23,
   "ModuleName" : "svo_vdma",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_vdma.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_vdma.v",
     "InstLine" : 255,
     "InstName" : "fifo",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_vdma.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_vdma.v",
     "ModuleLine" : 344,
     "ModuleName" : "svo_vdma_crossclock_fifo"
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
   "InstLine" : 5,
   "InstName" : "PicoMem_2kx8_SRAM_behav",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
   "ModuleLine" : 5,
   "ModuleName" : "PicoMem_2kx8_SRAM_behav"
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
   "InstLine" : 2168,
   "InstName" : "picorv32_regs",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
   "ModuleLine" : 2168,
   "ModuleName" : "picorv32_regs"
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
   "InstLine" : 2511,
   "InstName" : "picorv32_axi",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
   "ModuleLine" : 2511,
   "ModuleName" : "picorv32_axi",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "InstLine" : 2613,
     "InstName" : "axi_adapter",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "ModuleLine" : 2725,
     "ModuleName" : "picorv32_axi_adapter"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "InstLine" : 2668,
     "InstName" : "picorv32_core",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "ModuleLine" : 62,
     "ModuleName" : "picorv32"
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
   "InstLine" : 2809,
   "InstName" : "picorv32_wb",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
   "ModuleLine" : 2809,
   "ModuleName" : "picorv32_wb",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "InstLine" : 2932,
     "InstName" : "picorv32_core",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "ModuleLine" : 62,
     "ModuleName" : "picorv32"
    }
   ]
  },
  {
-  "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+  "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
   "InstLine" : 3,
   "InstName" : "picotiny",
-  "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+  "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
   "ModuleLine" : 3,
   "ModuleName" : "picotiny",
   "SubInsts" : [
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 90,
     "InstName" : "u_pll",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/gowin_rpll/gowin_rpll.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/gowin_rpll/gowin_rpll.v",
     "ModuleLine" : 9,
     "ModuleName" : "Gowin_rPLL"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 97,
     "InstName" : "u_div_5",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/gowin_clkdiv/gowin_clkdiv.v",
     "ModuleLine" : 9,
     "ModuleName" : "Gowin_CLKDIV"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 103,
     "InstName" : "u_Reset_Sync",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
     "ModuleLine" : 3,
     "ModuleName" : "Reset_Sync"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 111,
     "InstName" : "u_picorv32",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picorv32.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picorv32.v",
     "ModuleLine" : 62,
     "ModuleName" : "picorv32"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 126,
     "InstName" : "u_PicoMem_SRAM_8KB_7",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
     "ModuleLine" : 122,
     "ModuleName" : "PicoMem_SRAM_8KB",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 139,
       "InstName" : "u_sram_3",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
       "ModuleLine" : 9,
       "ModuleName" : "sram_2kx8"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 153,
       "InstName" : "u_sram_2",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
       "ModuleLine" : 9,
       "ModuleName" : "sram_2kx8"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 167,
       "InstName" : "u_sram_1",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
       "ModuleLine" : 9,
       "ModuleName" : "sram_2kx8"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 181,
       "InstName" : "u_sram_0",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/sram_2kx8/sram_2kx8.v",
       "ModuleLine" : 9,
       "ModuleName" : "sram_2kx8"
      }
     ]
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 141,
     "InstName" : "u_PicoMem_Mux_1_4_8",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
     "ModuleLine" : 191,
     "ModuleName" : "PicoMem_Mux_1_4"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 191,
     "InstName" : "u_PicoMem_Mux_1_4_picop",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
     "ModuleLine" : 191,
     "ModuleName" : "PicoMem_Mux_1_4"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 228,
     "InstName" : "u_PicoMem_SPI_Flash_18",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
     "ModuleLine" : 129,
     "ModuleName" : "PicoMem_SPI_Flash",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
       "InstLine" : 157,
       "InstName" : "u_spimemio",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/spimemio_puya.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/spimemio_puya.v",
       "ModuleLine" : 20,
       "ModuleName" : "spimemio_puya",
       "SubInsts" : [
        {
-        "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/spimemio_puya.v",
+        "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/spimemio_puya.v",
         "InstLine" : 185,
         "InstName" : "xfer",
-        "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/spimemio_puya.v",
+        "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/spimemio_puya.v",
         "ModuleLine" : 418,
         "ModuleName" : "spimemio_xfer"
        }
@@ -238,154 +238,154 @@
     ]
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 252,
     "InstName" : "u_boot_sram",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
     "ModuleLine" : 32,
     "ModuleName" : "PicoMem_BOOT_SRAM_8KB",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 49,
       "InstName" : "u_sram_3",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_3/bootram_2kx8_3.v",
       "ModuleLine" : 9,
       "ModuleName" : "bootram_2kx8_3"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 63,
       "InstName" : "u_sram_2",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_2/bootram_2kx8_2.v",
       "ModuleLine" : 9,
       "ModuleName" : "bootram_2kx8_2"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 77,
       "InstName" : "u_sram_1",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_1/bootram_2kx8_1.v",
       "ModuleLine" : 9,
       "ModuleName" : "bootram_2kx8_1"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picomemory.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picomemory.v",
       "InstLine" : 91,
       "InstName" : "u_sram_0",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/gowin_ip/bootram_2kx8_0/bootram_2kx8_0.v",
       "ModuleLine" : 9,
       "ModuleName" : "bootram_2kx8_0"
      }
     ]
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 263,
     "InstName" : "u_PicoMem_GPIO",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
     "ModuleLine" : 66,
     "ModuleName" : "PicoMem_GPIO"
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 275,
     "InstName" : "u_PicoMem_UART",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
     "ModuleLine" : 22,
     "ModuleName" : "PicoMem_UART",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picoperipheral.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picoperipheral.v",
       "InstLine" : 49,
       "InstName" : "u_simpleuart",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/simpleuart.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/simpleuart.v",
       "ModuleLine" : 20,
       "ModuleName" : "simpleuart"
      }
     ]
    },
    {
-    "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/picotiny.v",
+    "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/picotiny.v",
     "InstLine" : 294,
     "InstName" : "u_hdmi",
-    "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+    "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
     "ModuleLine" : 23,
     "ModuleName" : "svo_hdmi_top",
     "SubInsts" : [
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 89,
       "InstName" : "svo_tcard",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_tcard.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_tcard.v",
       "ModuleLine" : 23,
       "ModuleName" : "svo_tcard"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 99,
       "InstName" : "svo_term",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_term.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_term.v",
       "ModuleLine" : 23,
       "ModuleName" : "svo_term"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 114,
       "InstName" : "svo_overlay",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
       "ModuleLine" : 250,
       "ModuleName" : "svo_overlay",
       "SubInsts" : [
        {
-        "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+        "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
         "InstLine" : 307,
         "InstName" : "svo_buf_in",
-        "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+        "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
         "ModuleLine" : 101,
         "ModuleName" : "svo_buf",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+          "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
           "InstLine" : 145,
           "InstName" : "svo_axis_pipe",
-          "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+          "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
           "ModuleLine" : 31,
           "ModuleName" : "svo_axis_pipe"
          }
         ]
        },
        {
-        "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+        "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
         "InstLine" : 321,
         "InstName" : "svo_buf_over",
-        "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+        "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
         "ModuleLine" : 101,
         "ModuleName" : "svo_buf",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+          "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
           "InstLine" : 145,
           "InstName" : "svo_axis_pipe",
-          "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+          "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
           "ModuleLine" : 31,
           "ModuleName" : "svo_axis_pipe"
          }
         ]
        },
        {
-        "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+        "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
         "InstLine" : 335,
         "InstName" : "svo_buf_out",
-        "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+        "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
         "ModuleLine" : 101,
         "ModuleName" : "svo_buf",
         "SubInsts" : [
          {
-          "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+          "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
           "InstLine" : 145,
           "InstName" : "svo_axis_pipe",
-          "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_utils.v",
+          "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_utils.v",
           "ModuleLine" : 31,
           "ModuleName" : "svo_axis_pipe"
          }
@@ -394,34 +394,34 @@
       ]
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 135,
       "InstName" : "svo_enc",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_enc.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_enc.v",
       "ModuleLine" : 23,
       "ModuleName" : "svo_enc"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 152,
       "InstName" : "svo_tmds_0",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_tmds.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_tmds.v",
       "ModuleLine" : 23,
       "ModuleName" : "svo_tmds"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 162,
       "InstName" : "svo_tmds_1",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_tmds.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_tmds.v",
       "ModuleLine" : 23,
       "ModuleName" : "svo_tmds"
      },
      {
-      "InstFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_hdmi_top.v",
+      "InstFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_hdmi_top.v",
       "InstLine" : 172,
       "InstName" : "svo_tmds_2",
-      "ModuleFile" : "C:/Users/artur/Downloads/tangNano_9K/TangNano-9K-example/picotiny/hw/hdmi/svo_tmds.v",
+      "ModuleFile" : "C:/Users/artur/Downloads/FPGA/picotiny/hw/hdmi/svo_tmds.v",
       "ModuleLine" : 23,
       "ModuleName" : "svo_tmds"
      }

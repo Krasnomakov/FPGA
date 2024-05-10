@@ -1,3 +1,7 @@
+//in this script it is possible to send data to PC when button is pressed (sends the message to serial console)
+//and receive data from PC and display it on the LEDs (receive digits or letters and convert their binary representation to decimal and display it on the LEDs)
+//use the most significant 6 bits of the received data to display on the LEDs
+
 `default_nettype none  // Set default net type to none to prevent unintentional net declarations
 
 module uart // Define a Verilog module named uart
@@ -20,6 +24,7 @@ reg [12:0] rxCounter = 0;      // Counter for receive timing
 reg [7:0] dataIn = 0;          // Received data
 reg [2:0] rxBitNumber = 0;     // Bit number being received
 reg byteReady = 0;             // Flag indicating received byte is ready
+
 
 // Constants defining receive states
 localparam RX_STATE_IDLE = 0;            // Idle state
@@ -75,7 +80,7 @@ end
 // LED control based on received byte
 always @(posedge clk) begin
     if (byteReady) begin // If byte ready flag is set
-        led <= ~dataIn[5:0]; // Invert and assign lower 6 bits of received data to LEDs
+        led <= ~dataIn[5:0]; // Invert and assign lower 6 bits of received data to LEDs, if invert is removed, the LEDs will display the received data as is
     end
 end
 
@@ -117,7 +122,7 @@ localparam TX_STATE_DEBOUNCE = 4;        // State for debouncing button
 always @(posedge clk) begin
     case (txState) // Case statement based on txState
         TX_STATE_IDLE: begin // If in IDLE state
-            if (btn1 == 0) begin // If button pressed
+            if (btn1 == 0) begin // If button is pressed
                 txState <= TX_STATE_START_BIT; // Move to START_BIT state
                 txCounter <= 0; // Initialize counter
                 txByteCounter <= 0; // Initialize byte counter
