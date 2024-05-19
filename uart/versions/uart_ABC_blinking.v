@@ -1,3 +1,6 @@
+//this Verilog makes LEDs blink when a sequences ABC is received 
+//It uses a state machine to check for the sequence and set the LEDs
+
 `default_nettype none
 
 module uart
@@ -29,6 +32,12 @@ localparam RX_STATE_START_BIT = 1;
 localparam RX_STATE_READ_WAIT = 2;
 localparam RX_STATE_READ = 3;
 localparam RX_STATE_STOP_BIT = 5;
+
+reg [2:0] sequence_state = 0;
+localparam SEQ_IDLE = 0;
+localparam SEQ_A = 1;
+localparam SEQ_B = 2;
+localparam SEQ_C = 3;
 
 always @(posedge clk) begin
     case (rxState)
@@ -73,17 +82,37 @@ always @(posedge clk) begin
     endcase
 end
 
-
 // Check received data (need ABC) and set LED pattern 
 always @(posedge clk) begin
     if (byteReady) begin
-        // Check if the received data is 'A', 'B', or 'C'
-        if (dataIn == 8'h41 || dataIn == 8'h42 || dataIn == 8'h43) begin
-            // Set LED pattern or use a flag to indicate blinking should start
-            led_temp <= 6'b111111; // Example pattern, set all LEDs
-        end else begin
-            led_temp <= 0; // Turn off LEDs
-        end
+        case (sequence_state)
+            SEQ_IDLE: begin
+                if (dataIn == 8'h41) begin // 'A'
+                    sequence_state <= SEQ_A;
+                end
+            end
+            SEQ_A: begin
+                if (dataIn == 8'h42) begin // 'B'
+                    sequence_state <= SEQ_B;
+                end else if (dataIn != 8'h41) begin
+                    sequence_state <= SEQ_IDLE;
+                end
+            end
+            SEQ_B: begin
+                if (dataIn == 8'h43) begin // 'C'
+                    sequence_state <= SEQ_C;
+                end else if (dataIn != 8'h42) begin
+                    sequence_state <= SEQ_IDLE;
+                end
+            end
+            SEQ_C: begin
+                // Sequence 'ABC' is complete, set LED pattern
+                led_temp <= 6'b111111; // Example pattern, set all LEDs
+                sequence_state <= SEQ_IDLE; // Reset state
+            end
+        endcase
+    end else begin
+        led_temp <= 0; // Turn off LEDs
     end
 end
 
