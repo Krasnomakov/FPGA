@@ -19,6 +19,8 @@ This directory contains several simple implementations for Tang Nano 9K.
 ## UART (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
 The Verilog code defines a UART module that receives and transmits data asynchronously. It implements state machines for both receiving and transmitting data, with control logic to manage timing and data flow.
 
+My modifications include Verilog for receiving A,B, or C to make LEDs blink. And another version that receives a sequence ABC and then makes LEDs blink.
+
 tutorial: https://learn.lushaylabs.com/tang-nano-9k-debugging/
 
 original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/uart
