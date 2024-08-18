@@ -726,5 +726,8 @@
                 "led": "xxxxxx"
             }
         ]
+    },
+    "__meta__": {
+        "version": 1
     }
 }

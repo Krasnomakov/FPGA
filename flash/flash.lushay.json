@@ -1,0 +1,12 @@
+{
+    "name": "flash",
+    "includedFiles": [
+        "flash.v",
+        "screen.v",
+        "text.v",
+        "top.v"
+    ],
+    "constraintsFile": "tangnano9k.cst",
+    "synthGowinOptions": ["-noalu", "-nowidelut", "-nodffe"],
+    "externalFlashFiles": ["numbers.bin"]
+}

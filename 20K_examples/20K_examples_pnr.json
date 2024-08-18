@@ -1,0 +1,4958 @@
+{
+  "creator": "Next Generation Place and Route (Version nextpnr-0.7-29-gf0859503)",
+  "modules": {
+    "top": {
+      "settings": {
+        "route": "00000000000000000000000000000001",
+        "router/tmg_ripup": "0 ",
+        "router1/useEstimate": "1 ",
+        "router1/fullCleanupReroute": "1 ",
+        "router1/cleanupReroute": "1 ",
+        "router1/maxIterCnt": "200",
+        "place": "00000000000000000000000000000001",
+        "placer1/startTemp": "1.000000",
+        "placer1/minBelsForGridPick": "64",
+        "placer1/netShareWeight": "0.000000",
+        "placer1/constraintWeight": "10.000000",
+        "placerHeap/cellPlacementTimeout": "8",
+        "placerHeap/netShareWeight": "0.000000",
+        "placerHeap/parallelRefine": "0 ",
+        "pack": "00000000000000000000000000000001",
+        "cst": "00000000000000000000000000000001",
+        "synth": "00000000000000000000000000000001",
+        "placerHeap/timingWeight": "10 ",
+        "placerHeap/criticalityExponent": "2",
+        "placerHeap/beta": "0.900000",
+        "placerHeap/alpha": "0.100000",
+        "seed": "01010011010110001001011110010011",
+        "arch.type": "none",
+        "arch.name": "ARCHNAME",
+        "router": "router1",
+        "placer": "heap",
+        "auto_freq": "00000000000000000000000000000000",
+        "slack_redist_iter": "00000000000000000000000000000000",
+        "timing_driven": "00000000000000000000000000000001",
+        "target_freq": "27000000.000000",
+        "arch.enable-auto-longwires": "00000000000000000000000000000000",
+        "arch.enable-globals": "00000000000000000000000000000001"
+      },
+      "attributes": {
+        "top": "00000000000000000000000000000001",
+        "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:1.1-27.10"
+      },
+      "ports": {
+        "sys_rst_n": {
+          "direction": "input",
+          "bits": [ 3882057 ]
+        },
+        "sys_clk": {
+          "direction": "input",
+          "bits": [ 3882056 ]
+        },
+        "led": {
+          "direction": "output",
+          "bits": [ 786358144, 786357696, 786357248, 786356800, 786356352, 786355904 ]
+        }
+      },
+      "cells": {
+        "sys_clk_IBUF_I_O_DFFPE_CLK_3_DFFLC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFPE",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "1010101010101010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C2_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:18.1-25.4|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:103.8-103.69"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [ 3882081 ],
+            "Q": [ 3882070 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882073 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFPE_CLK_DFFLC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFPE",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "1010101010101010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R18C2_SLICE1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:18.1-25.4|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:103.8-103.69"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [ 3882081 ],
+            "Q": [ 3882060 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882064 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFPE_CLK_4_DFFLC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFPE",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "1010101010101010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C2_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:18.1-25.4|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:103.8-103.69"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [ 3882081 ],
+            "Q": [ 3882073 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882076 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFPE_CLK_2_DFFLC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFPE",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "1010101010101010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R18C2_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:18.1-25.4|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:103.8-103.69"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [ 3882081 ],
+            "Q": [ 3882067 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882070 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_DFFLC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFCE",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "1010101010101010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C2_SLICE1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:18.1-25.4|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:115.8-115.68"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [ 3882081 ],
+            "Q": [ 3882076 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882060 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFPE_CLK_1_DFFLC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFPE",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "1010101010101010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R18C2_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:18.1-25.4|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:103.8-103.69"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [ 3882081 ],
+            "Q": [ 3882064 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882067 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_9_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882100 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882293 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_LUT4_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE6",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882094 ],
+            "CLK": [  ],
+            "D": [ 3882106 ],
+            "C": [ 3882103 ],
+            "B": [ 3882330 ],
+            "A": [ 3882328 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_LUT4_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE6",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882184 ],
+            "CLK": [  ],
+            "D": [ 3882188 ],
+            "C": [ 3882187 ],
+            "B": [ 3882186 ],
+            "A": [ 3882185 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_LUT4_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "0000010000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:153.41-153.66|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882190 ],
+            "CLK": [  ],
+            "D": [ 3882158 ],
+            "C": [ 3882155 ],
+            "B": [ 3882152 ],
+            "A": [ 3882149 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_MUX2_LUT5_S0_I0_LUT1_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE6",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:152.41-152.66|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882192 ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_8_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C7_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882097 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882291 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_7_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C3_SLICE0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882186 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882210 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_6_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C3_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882185 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882207 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_5_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C3_SLICE4",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882158 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882170 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0001"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C3_SLICE1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882188 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882188 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R18C4_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882115 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882136 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_1_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R18C4_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882118 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882139 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_10_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882196 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882255 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_11_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882295 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882258 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_12_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C3_SLICE5",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882187 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882213 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_13_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882297 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882262 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_14_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE5",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882299 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882265 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_15_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE4",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882301 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882268 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_16_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C5_SLICE4",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882303 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882271 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_17_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C5_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882328 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882274 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_18_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C5_SLICE0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882330 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882277 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_19_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0100"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C5_SLICE1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882103 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882279 ],
+            "A": [ 3882229 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_2_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C4_SLICE0",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882149 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882173 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_20_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C5_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882106 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882282 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_21_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C5_SLICE5",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882109 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882143 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_22_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C4_SLICE2",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882112 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882145 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_3_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C4_SLICE3",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882152 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882176 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_LUT2_I0_F_LUT2_F_4_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFFC",
+            "FF_USED": "00000000000000000000000000000001",
+            "INIT": "0010"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C4_SLICE1",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:139.23-140.26"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [ 3882082 ],
+            "CE": [  ],
+            "Q": [ 3882155 ],
+            "F": [  ],
+            "CLK": [ 3882079 ],
+            "D": [  ],
+            "C": [  ],
+            "B": [ 3882229 ],
+            "A": [ 3882179 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C4_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882164 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882152 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C4_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882126 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882394 ],
+            "A": [ 3882118 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C4_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882132 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882112 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882341 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882106 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882336 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882330 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882316 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882303 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C6_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882310 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882299 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C6_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882360 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882394 ],
+            "A": [ 3882295 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C6_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882355 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882100 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_TAIL_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "C2L",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C7_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882229 ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882226 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882188 ],
+            "A": [ 3882396 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882221 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882186 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882182 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882158 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_rst_n_IBUF_I$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_O": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000000",
+            "INPUT_USED": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R5C1_IOBA",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:3.11-3.20",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001",
+            "&PULL_MODE=UP": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [ 3882378 ],
+            "OEN": [  ],
+            "I": [  ],
+            "PAD": [  ]
+          }
+        },
+        "led_OBUF_O_3$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_I": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R21C1_IOBB",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3882070 ],
+            "PAD": [  ]
+          }
+        },
+        "led_OBUF_O_2$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_I": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R22C1_IOBB",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3882067 ],
+            "PAD": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_MUX2_LUT5_S0_LC": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_MUX2_LUT53"
+          },
+          "port_directions": {
+            "OF": "output",
+            "SEL": "input",
+            "I1": "input",
+            "I0": "input"
+          },
+          "connections": {
+            "OF": [ 3882087 ],
+            "SEL": [ 3882184 ],
+            "I1": [ 3882190 ],
+            "I0": [ 3882192 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882176 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882152 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882139 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882118 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882145 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882112 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882282 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882106 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882179 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882155 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C6_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882358 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882394 ],
+            "A": [ 3882196 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882143 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882109 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882136 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882115 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_3_HEAD_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "ONE2C",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C3_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [  ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [ 3882396 ],
+            "B": [  ],
+            "A": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882277 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882330 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "led_OBUF_O_1$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_I": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R25C1_IOBB",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3882064 ],
+            "PAD": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882274 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882328 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882271 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882303 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_LC": {
+          "hide_name": 0,
+          "type": "MUX2_LUT5",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_MUX2_LUT53"
+          },
+          "port_directions": {
+            "OF": "output",
+            "SEL": "input",
+            "I1": "input",
+            "I0": "input"
+          },
+          "connections": {
+            "OF": [ 3882081 ],
+            "SEL": [ 3882087 ],
+            "I1": [ 3882086 ],
+            "I0": [ 3882085 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882268 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882301 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_O": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000000",
+            "INPUT_USED": "00000000000000000000000000000001"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R17C47_IOBA",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:2.11-2.18",
+            "&IO_TYPE=LVCMOS33": "00000000000000000000000000000001",
+            "&PULL_MODE=UP": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [ 3882079 ],
+            "OEN": [  ],
+            "I": [  ],
+            "PAD": [  ]
+          }
+        },
+        "led_OBUF_O_4$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_I": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R16C1_IOBB",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3882073 ],
+            "PAD": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882265 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882299 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C7_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882352 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882097 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C6_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882307 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882297 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C6_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882313 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882394 ],
+            "A": [ 3882301 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C4_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882173 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882149 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C3_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882210 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882186 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C3_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882215 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882188 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C4_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882167 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882394 ],
+            "A": [ 3882155 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE3"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882258 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882295 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882255 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882196 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_LUT4_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "0000000010000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C4_SLICE7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882093 ],
+            "CLK": [  ],
+            "D": [ 3882118 ],
+            "C": [ 3882115 ],
+            "B": [ 3882112 ],
+            "A": [ 3882109 ]
+          }
+        },
+        "led_OBUF_O_5$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_I": "NET",
+            "NET_GW9C_ALWAYS_LOW0": "GND",
+            "NET_GW9C_ALWAYS_LOW1": "GND",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R15C1_IOBA",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "GW9C_ALWAYS_LOW1": "input",
+            "GW9C_ALWAYS_LOW0": "input",
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "GW9C_ALWAYS_LOW1": [ 3882394 ],
+            "GW9C_ALWAYS_LOW0": [ 3882394 ],
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3882076 ],
+            "PAD": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C4_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882123 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882115 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882130 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882109 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882293 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882100 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882333 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882328 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C5_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882339 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882103 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882224 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882187 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882218 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882185 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_3_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C3_SLICE5"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882170 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882158 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C3_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882213 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882187 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C3_SLICE4"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882207 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882396 ],
+            "A": [ 3882185 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R15C4_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882161 ],
+            "CLK": [  ],
+            "D": [ 3882394 ],
+            "C": [ 3882396 ],
+            "B": [ 3882394 ],
+            "A": [ 3882149 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882262 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882297 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_2_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE2"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882279 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882103 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "00000000000000000000000000000010",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C7_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882291 ],
+            "CLK": [  ],
+            "D": [ 3882396 ],
+            "C": [ 3882396 ],
+            "B": [ 3882097 ],
+            "A": [ 3882394 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_DUMMY_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "C2L",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C7_SLICE1"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [  ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [  ]
+          }
+        },
+        "led_OBUF_O$iob": {
+          "hide_name": 0,
+          "type": "IOB",
+          "parameters": {
+            "NET_I": "NET",
+            "ENABLE_USED": "00000000000000000000000000000000",
+            "OUTPUT_USED": "00000000000000000000000000000001",
+            "INPUT_USED": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000110",
+            "NEXTPNR_BEL": "R26C1_IOBB",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:4.22-4.25",
+            "&DRIVE=8": "00000000000000000000000000000001",
+            "&IO_TYPE=LVCMOS18": "00000000000000000000000000000001"
+          },
+          "port_directions": {
+            "O": "output",
+            "OEN": "input",
+            "I": "input",
+            "PAD": "inout"
+          },
+          "connections": {
+            "O": [  ],
+            "OEN": [  ],
+            "I": [ 3882060 ],
+            "PAD": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_LUT4_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "0000000000001000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C6_SLICE7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882092 ],
+            "CLK": [  ],
+            "D": [ 3882295 ],
+            "C": [ 3882196 ],
+            "B": [ 3882100 ],
+            "A": [ 3882097 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_LUT4_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "0000100000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C6_SLICE7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882091 ],
+            "CLK": [  ],
+            "D": [ 3882303 ],
+            "C": [ 3882301 ],
+            "B": [ 3882299 ],
+            "A": [ 3882297 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_I1_LUT4_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "1000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE7",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:153.41-153.66|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882086 ],
+            "CLK": [  ],
+            "D": [ 3882094 ],
+            "C": [ 3882093 ],
+            "B": [ 3882092 ],
+            "A": [ 3882091 ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_3_HEAD_ALULC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "ALU_MODE": "C2L",
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00000000000000000000000000000000"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C3_SLICE0"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [  ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [ 3882396 ],
+            "B": [  ],
+            "A": [  ]
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_I0_LUT1_F_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "00"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R17C5_SLICE6",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:152.41-152.66|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:147.23-148.48"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882085 ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [  ]
+          }
+        },
+        "sys_rst_n_IBUF_I_O_LUT1_I0_LC": {
+          "hide_name": 0,
+          "type": "SLICE",
+          "parameters": {
+            "FF_TYPE": "DFF",
+            "FF_USED": "00000000000000000000000000000000",
+            "INIT": "01"
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "R16C2_SLICE4",
+            "module_not_derived": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:135.23-136.15"
+          },
+          "port_directions": {
+            "LSR": "input",
+            "CE": "input",
+            "Q": "output",
+            "F": "output",
+            "CLK": "input",
+            "D": "input",
+            "C": "input",
+            "B": "input",
+            "A": "input"
+          },
+          "connections": {
+            "LSR": [  ],
+            "CE": [  ],
+            "Q": [  ],
+            "F": [ 3882082 ],
+            "CLK": [  ],
+            "D": [  ],
+            "C": [  ],
+            "B": [  ],
+            "A": [ 3882378 ]
+          }
+        },
+        "$PACKER_GND": {
+          "hide_name": 1,
+          "type": "GND",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "GND"
+          },
+          "port_directions": {
+            "G": "output"
+          },
+          "connections": {
+            "G": [ 3882394 ]
+          }
+        },
+        "$PACKER_VCC": {
+          "hide_name": 1,
+          "type": "VCC",
+          "parameters": {
+          },
+          "attributes": {
+            "BEL_STRENGTH": "00000000000000000000000000000001",
+            "NEXTPNR_BEL": "VCC"
+          },
+          "port_directions": {
+            "V": "output"
+          },
+          "connections": {
+            "V": [ 3882396 ]
+          }
+        }
+      },
+      "netnames": {
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_2_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882313 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882312 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882310 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882309 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882307 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882306 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882305 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q[3]": {
+          "hide_name": 0,
+          "bits": [ 3882303 ] ,
+          "attributes": {
+            "ROUTING": "R15C5_A5;R15C5_N121_A5;1;R16C5_E10;R16C5_Q4_E100;1;R16C6_D7;R16C6_E101_D7;1;R16C5_Q4;;1;R16C5_SN20;R16C5_Q4_SN20;1;R17C5_B5;R17C5_S121_B5;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q[2]": {
+          "hide_name": 0,
+          "bits": [ 3882301 ] ,
+          "attributes": {
+            "ROUTING": "R16C6_N13;R16C6_Q4_N130;1;R16C6_C7;R16C6_N130_C7;1;R16C6_N24;R16C6_Q4_N240;1;R15C6_X03;R15C6_N241_X03;1;R15C6_A0;R15C6_X03_A0;1;R16C6_Q4;;1;R16C6_S24;R16C6_Q4_S240;1;R17C6_X05;R17C6_S241_X05;1;R17C6_B0;R17C6_X05_B0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q[1]": {
+          "hide_name": 0,
+          "bits": [ 3882299 ] ,
+          "attributes": {
+            "ROUTING": "R15C6_A1;R15C6_N111_A1;1;R16C6_W13;R16C6_Q5_W130;1;R16C6_B7;R16C6_W130_B7;1;R16C6_Q5;;1;R16C6_SN10;R16C6_Q5_SN10;1;R17C6_B1;R17C6_S111_B1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q[0]": {
+          "hide_name": 0,
+          "bits": [ 3882297 ] ,
+          "attributes": {
+            "ROUTING": "R16C6_N22;R16C6_Q2_N220;1;R15C6_X07;R15C6_N221_X07;1;R15C6_A2;R15C6_X07_A2;1;R16C6_E13;R16C6_Q2_E130;1;R16C6_A7;R16C6_E130_A7;1;R16C6_Q2;;1;R16C6_S22;R16C6_Q2_S220;1;R17C6_X01;R17C6_S221_X01;1;R17C6_B2;R17C6_X01_B2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q[3]": {
+          "hide_name": 0,
+          "bits": [ 3882295 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_X02;R17C6_S231_X02;1;R17C6_D7;R17C6_X02_D7;1;R16C6_N23;R16C6_Q3_N230;1;R15C6_X02;R15C6_N231_X02;1;R15C6_A3;R15C6_X02_A3;1;R16C6_Q3;;1;R16C6_S23;R16C6_Q3_S230;1;R17C6_B3;R17C6_S231_B3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882293 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F5;;1;R17C6_N25;R17C6_F5_N250;1;R16C6_X04;R16C6_N251_X04;1;R16C6_B1;R16C6_X04_B1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882291 ] ,
+          "attributes": {
+            "ROUTING": "R17C7_F0;;1;R17C7_X01;R17C7_F0_X01;1;R17C7_B2;R17C7_X01_B2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_3_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882282 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F1;;1;R17C5_SN10;R17C5_F1_SN10;1;R16C5_A3;R16C5_N111_A3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_2_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882279 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F2;;1;R17C5_N22;R17C5_F2_N220;1;R16C5_X07;R16C5_N221_X07;1;R16C5_B1;R16C5_X07_B1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882277 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F3;;1;R17C5_N23;R17C5_F3_N230;1;R16C5_B0;R16C5_N231_B0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882343 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882274 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F4;;1;R17C5_N13;R17C5_F4_N130;1;R16C5_B2;R16C5_N131_B2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882341 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_3_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882271 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F5;;1;R17C5_N10;R17C5_F5_N100;1;R16C5_B4;R16C5_N101_B4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_2_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882339 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_2_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882268 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F0;;1;R17C6_N10;R17C6_F0_N100;1;R16C6_B4;R16C6_N101_B4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882338 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882265 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F1;;1;R17C6_N21;R17C6_F1_N210;1;R16C6_X08;R16C6_N211_X08;1;R16C6_B5;R16C6_X08_B5;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882336 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882262 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F2;;1;R17C6_N22;R17C6_F2_N220;1;R16C6_X01;R16C6_N221_X01;1;R16C6_B2;R16C6_X01_B2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882335 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_3_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882258 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F3;;1;R17C6_N23;R17C6_F3_N230;1;R16C6_B3;R16C6_N231_B3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882332 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_2_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882255 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F4;;1;R17C6_N13;R17C6_F4_N130;1;R16C6_B0;R16C6_N131_B0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_1_SUM[1]": {
+          "hide_name": 0,
+          "bits": [ 3882229 ] ,
+          "attributes": {
+            "ROUTING": "R16C5_A0;R16C5_W251_A0;1;R16C4_W20;R16C4_W252_W200;1;R16C3_X01;R16C3_W201_X01;1;R16C3_B4;R16C3_X01_B4;1;R16C4_B0;R16C4_X04_B0;1;R16C6_A5;R16C6_X06_A5;1;R16C5_B3;R16C5_W232_B3;1;R16C4_B2;R16C4_X04_B2;1;R16C6_X02;R16C6_W231_X02;1;R16C6_A3;R16C6_X02_A3;1;R16C6_X06;R16C6_S251_X06;1;R16C6_A4;R16C6_X06_A4;1;R16C6_A2;R16C6_S251_A2;1;R16C5_A1;R16C5_W251_A1;1;R16C5_A2;R16C5_W251_A2;1;R16C5_A4;R16C5_W251_A4;1;R15C7_S13;R15C7_F1_S130;1;R16C7_W23;R16C7_S131_W230;1;R16C5_B5;R16C5_W232_B5;1;R16C3_X04;R16C3_W251_X04;1;R16C3_B3;R16C3_X04_B3;1;R17C6_W25;R17C6_S252_W250;1;R17C4_S25;R17C4_W252_S250;1;R18C4_X04;R18C4_S251_X04;1;R18C4_B2;R18C4_X04_B2;1;R16C6_W25;R16C6_S251_W250;1;R16C4_X04;R16C4_W252_X04;1;R16C4_B1;R16C4_X04_B1;1;R15C7_EW10;R15C7_F1_EW10;1;R15C6_S25;R15C6_W111_S250;1;R16C6_A1;R16C6_S251_A1;1;R16C3_X08;R16C3_S211_X08;1;R16C3_B5;R16C3_X08_B5;1;R16C3_B1;R16C3_S211_B1;1;R15C3_S21;R15C3_W212_S210;1;R16C3_B0;R16C3_S211_B0;1;R16C6_A0;R16C6_S251_A0;1;R18C4_B3;R18C4_X04_B3;1;R16C4_W25;R16C4_W252_W250;1;R15C7_S21;R15C7_F1_S210;1;R17C7_X02;R17C7_S212_X02;1;R17C7_A2;R17C7_X02_A2;1;R15C7_F1;;1;R15C7_W21;R15C7_F1_W210;1;R15C5_W21;R15C5_W212_W210;1;R15C4_S21;R15C4_W211_S210;1;R16C4_B3;R16C4_S211_B3;1",
+            "abc9_carry": "00000000000000000000000000000001",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882226 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_2_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882224 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882223 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882221 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882220 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882218 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882217 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882215 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_2_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882213 ] ,
+          "attributes": {
+            "ROUTING": "R15C3_F2;;1;R15C3_S10;R15C3_F2_S100;1;R16C3_A5;R16C3_S101_A5;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882212 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_1_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882210 ] ,
+          "attributes": {
+            "ROUTING": "R15C3_F3;;1;R15C3_S13;R15C3_F3_S130;1;R16C3_A0;R16C3_S131_A0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882209 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882207 ] ,
+          "attributes": {
+            "ROUTING": "R15C3_F4;;1;R15C3_S24;R15C3_F4_S240;1;R16C3_X05;R16C3_S241_X05;1;R16C3_A3;R16C3_X05_A3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882206 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882323 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882333 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882318 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882319 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q[2]": {
+          "hide_name": 0,
+          "bits": [ 3882196 ] ,
+          "attributes": {
+            "ROUTING": "R15C6_A4;R15C6_N121_A4;1;R17C6_E22;R17C6_S121_E220;1;R17C6_C7;R17C6_E220_C7;1;R16C6_Q0;;1;R16C6_SN20;R16C6_Q0_SN20;1;R17C6_B4;R17C6_S121_B4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q[1]": {
+          "hide_name": 0,
+          "bits": [ 3882330 ] ,
+          "attributes": {
+            "ROUTING": "R15C5_A3;R15C5_N111_A3;1;R15C5_N25;R15C5_N111_N250;1;R15C5_B6;R15C5_N250_B6;1;R16C5_Q0;;1;R16C5_SN10;R16C5_Q0_SN10;1;R17C5_B3;R17C5_S111_B3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_MUX2_LUT5_S0_I0": {
+          "hide_name": 0,
+          "bits": [ 3882192 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F6;;1;R17C4_I0MUX6;R17C4_F6_DUMMY_I0MUX6;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_LUT4_I0_F": {
+          "hide_name": 0,
+          "bits": [ 3882190 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F7;;1;R17C4_I1MUX6;R17C4_F7_DUMMY_I1MUX6;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q[3]": {
+          "hide_name": 0,
+          "bits": [ 3882188 ] ,
+          "attributes": {
+            "ROUTING": "R17C3_X02;R17C3_S211_X02;1;R17C3_D6;R17C3_X02_D6;1;R16C3_S21;R16C3_Q1_S210;1;R17C3_B1;R17C3_S211_B1;1;R16C3_N21;R16C3_Q1_N210;1;R15C3_X02;R15C3_N211_X02;1;R15C3_A1;R15C3_X02_A1;1;R16C3_Q1;;1;R16C3_X02;R16C3_Q1_X02;1;R16C3_A1;R16C3_X02_A1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q[2]": {
+          "hide_name": 0,
+          "bits": [ 3882187 ] ,
+          "attributes": {
+            "ROUTING": "R16C3_W10;R16C3_Q5_W100;1;R16C3_S23;R16C3_W100_S230;1;R17C3_B2;R17C3_S231_B2;1;R16C3_S13;R16C3_Q5_S130;1;R17C3_C6;R17C3_S131_C6;1;R16C3_Q5;;1;R16C3_N25;R16C3_Q5_N250;1;R15C3_A2;R15C3_N251_A2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q[1]": {
+          "hide_name": 0,
+          "bits": [ 3882186 ] ,
+          "attributes": {
+            "ROUTING": "R17C3_B3;R17C3_S111_B3;1;R16C3_S20;R16C3_Q0_S200;1;R17C3_X07;R17C3_S201_X07;1;R17C3_B6;R17C3_X07_B6;1;R16C3_Q0;;1;R16C3_SN10;R16C3_Q0_SN10;1;R15C3_A3;R15C3_N111_A3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q[0]": {
+          "hide_name": 0,
+          "bits": [ 3882185 ] ,
+          "attributes": {
+            "ROUTING": "R16C3_S10;R16C3_Q3_S100;1;R17C3_A6;R17C3_S101_A6;1;R16C3_W13;R16C3_Q3_W130;1;R16C3_S27;R16C3_W130_S270;1;R17C3_B4;R17C3_S271_B4;1;R16C3_Q3;;1;R16C3_N23;R16C3_Q3_N230;1;R15C3_A4;R15C3_N231_A4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q[4]": {
+          "hide_name": 0,
+          "bits": [ 3882184 ] ,
+          "attributes": {
+            "ROUTING": "R17C3_F6;;1;R17C3_E26;R17C3_F6_E260;1;R17C4_SEL6;R17C4_E261_SEL6;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882182 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882181 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_2_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882179 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F0;;1;R17C4_N20;R17C4_F0_N200;1;R16C4_X01;R16C4_N201_X01;1;R16C4_A1;R16C4_X01_A1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882178 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_1_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882176 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F1;;1;R17C4_N21;R17C4_F1_N210;1;R16C4_X02;R16C4_N211_X02;1;R16C4_A3;R16C4_X02_A3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882175 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882173 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F2;;1;R17C4_SN10;R17C4_F2_SN10;1;R16C4_A0;R16C4_N111_A0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882172 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_3_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882170 ] ,
+          "attributes": {
+            "ROUTING": "R15C3_F5;;1;R15C3_S25;R15C3_F5_S250;1;R16C3_X06;R16C3_S251_X06;1;R16C3_A4;R16C3_X06_A4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_23_Q_ALU_I0_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882169 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_2_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882167 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882166 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882164 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882163 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882161 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882160 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q[3]": {
+          "hide_name": 0,
+          "bits": [ 3882158 ] ,
+          "attributes": {
+            "ROUTING": "R17C3_E22;R17C3_S121_E220;1;R17C4_D7;R17C4_E221_D7;1;R17C3_B5;R17C3_S121_B5;1;R16C3_Q4;;1;R16C3_SN20;R16C3_Q4_SN20;1;R15C3_A5;R15C3_N121_A5;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I1_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882321 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q[2]": {
+          "hide_name": 0,
+          "bits": [ 3882155 ] ,
+          "attributes": {
+            "ROUTING": "R16C4_N10;R16C4_Q1_N100;1;R15C4_N20;R15C4_N101_N200;1;R15C4_A0;R15C4_N200_A0;1;R16C4_S13;R16C4_Q1_S130;1;R17C4_C7;R17C4_S131_C7;1;R16C4_Q1;;1;R16C4_S21;R16C4_Q1_S210;1;R17C4_B0;R17C4_S211_B0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882357 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q[1]": {
+          "hide_name": 0,
+          "bits": [ 3882152 ] ,
+          "attributes": {
+            "ROUTING": "R16C4_W13;R16C4_Q3_W130;1;R16C4_S27;R16C4_W130_S270;1;R17C4_B7;R17C4_S271_B7;1;R16C4_N23;R16C4_Q3_N230;1;R15C4_X02;R15C4_N231_X02;1;R15C4_A1;R15C4_X02_A1;1;R16C4_Q3;;1;R16C4_S23;R16C4_Q3_S230;1;R17C4_B1;R17C4_S231_B1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882355 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q[0]": {
+          "hide_name": 0,
+          "bits": [ 3882149 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_S21;R17C4_S111_S210;1;R17C4_A7;R17C4_S210_A7;1;R15C4_A2;R15C4_N111_A2;1;R16C4_Q0;;1;R16C4_SN10;R16C4_Q0_SN10;1;R17C4_B2;R17C4_S111_B2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882347 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_3_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882145 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F5;;1;R17C4_N25;R17C4_F5_N250;1;R16C4_A2;R16C4_N251_A2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_2_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882143 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F0;;1;R17C5_SN20;R17C5_F0_SN20;1;R16C5_A5;R16C5_N121_A5;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882142 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882141 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_1_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882139 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F3;;1;R17C4_S13;R17C4_F3_S130;1;R18C4_A2;R18C4_S131_A2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882138 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_SUM[0]": {
+          "hide_name": 0,
+          "bits": [ 3882136 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_F4;;1;R17C4_S24;R17C4_F4_S240;1;R18C4_X05;R18C4_S241_X05;1;R18C4_A3;R18C4_X05_A3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882135 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I1_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882134 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882132 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_2_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882130 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882129 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882128 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_1_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882126 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_19_Q_ALU_I0_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882125 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882123 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "$PACKER_VCC_NET": {
+          "hide_name": 1,
+          "bits": [ 3882396 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_D0;R17C5_X08_D0;1;R17C3_X03;R17C3_VCC_X03;1;R17C3_A1;R17C3_X03_A1;1;R15C3_B5;R15C3_X08_B5;1;R17C7_X04;R17C7_VCC_X04;1;R17C7_C0;R17C7_X04_C0;1;R15C3_C0;R15C3_X04_C0;1;R15C4_B1;R15C4_X04_B1;1;R15C5_B0;R15C5_X04_B0;1;R17C6_D1;R17C6_X03_D1;1;R17C4_C2;R17C4_X04_C2;1;R17C4_C4;R17C4_X08_C4;1;R17C7_X03;R17C7_VCC_X03;1;R17C7_D0;R17C7_X03_D0;1;R17C4_C0;R17C4_X04_C0;1;R15C6_C3;R15C6_X04_C3;1;R17C5_C4;R17C5_X08_C4;1;R15C3_B4;R15C3_X08_B4;1;R17C3_C1;R17C3_X04_C1;1;R15C4_C3;R15C4_X04_C3;1;R17C4_D4;R17C4_X04_D4;1;R15C4_C0;R15C4_X04_C0;1;R17C5_C1;R17C5_S241_C1;1;R17C5_C2;R17C5_W220_C2;1;R15C3_B1;R15C3_X04_B1;1;R17C3_C0;R17C3_X04_C0;1;R15C5_B2;R15C5_X04_B2;1;R17C6_C3;R17C6_X04_C3;1;R15C4_C5;R15C4_X08_C5;1;R15C6_C2;R15C6_X04_C2;1;R15C6_C0;R15C6_X04_C0;1;R17C5_C5;R17C5_X08_C5;1;R15C5_B3;R15C5_X04_B3;1;R17C3_C3;R17C3_X04_C3;1;R15C5_C4;R15C5_X08_C4;1;R17C5_D1;R17C5_X08_D1;1;R17C6_D5;R17C6_X04_D5;1;R17C6_D3;R17C6_X03_D3;1;R15C6_B5;R15C6_X08_B5;1;R15C6_B2;R15C6_X04_B2;1;R15C5_C1;R15C5_X04_C1;1;R15C3_C4;R15C3_X08_C4;1;R15C3_C1;R15C3_X04_C1;1;R15C6_C5;R15C6_X08_C5;1;R15C3_X08;R15C3_VCC_X08;1;R15C3_C5;R15C3_X08_C5;1;R17C3_D5;R17C3_X04_D5;1;R17C6_C4;R17C6_S220_C4;1;R17C4_D3;R17C4_X08_D3;1;R17C5_D3;R17C5_X08_D3;1;R15C3_C2;R15C3_X04_C2;1;R17C6_C0;R17C6_X04_C0;1;R17C4_X08;R17C4_VCC_X08;1;R17C4_C5;R17C4_X08_C5;1;R17C4_D1;R17C4_X03_D1;1;R15C5_B1;R15C5_X04_B1;1;R17C5_D5;R17C5_X07_D5;1;R17C3_C5;R17C3_X08_C5;1;R15C4_C1;R15C4_X04_C1;1;R17C4_C1;R17C4_X04_C1;1;R15C5_C0;R15C5_X04_C0;1;R15C5_C5;R15C5_X08_C5;1;R15C4_X04;R15C4_VCC_X04;1;R15C4_C2;R15C4_X04_C2;1;R17C4_D5;R17C4_X04_D5;1;R17C3_D2;R17C3_X08_D2;1;R15C3_X04;R15C3_VCC_X04;1;R15C3_C3;R15C3_X04_C3;1;R15C5_C3;R15C5_X04_C3;1;R15C6_C1;R15C6_X04_C1;1;R17C6_C2;R17C6_X04_C2;1;R15C6_X04;R15C6_VCC_X04;1;R15C6_B1;R15C6_X04_B1;1;R15C4_X08;R15C4_VCC_X08;1;R15C4_C4;R15C4_X08_C4;1;R15C5_X04;R15C5_VCC_X04;1;R15C5_C2;R15C5_X04_C2;1;R17C6_C1;R17C6_X04_C1;1;R17C3_D3;R17C3_X08_D3;1;R17C5_X08;R17C5_VCC_X08;1;R17C5_D2;R17C5_X08_D2;1;R17C4_X04;R17C4_VCC_X04;1;R17C4_C3;R17C4_X04_C3;1;R17C6_X04;R17C6_VCC_X04;1;R17C6_D4;R17C6_X04_D4;1;R15C4_B4;R15C4_X03_B4;1;R15C6_X08;R15C6_VCC_X08;1;R15C6_C4;R15C6_X08_C4;1;R16C5_S24;R16C5_VCC_S240;1;R17C5_C0;R17C5_S241_C0;1;R15C4_X03;R15C4_VCC_X03;1;R15C4_B5;R15C4_X03_B5;1;R17C3_D4;R17C3_X04_D4;1;R15C5_B4;R15C5_X08_B4;1;R17C3_X04;R17C3_VCC_X04;1;R17C3_C2;R17C3_X04_C2;1;R15C7_B0;R15C7_X04_B0;1;R15C7_X04;R15C7_VCC_X04;1;R15C7_C0;R15C7_X04_C0;1;R17C6_D2;R17C6_X03_D2;1;R17C4_D2;R17C4_X03_D2;1;R17C6_X03;R17C6_VCC_X03;1;R17C6_D0;R17C6_X03_D0;1;R17C3_D1;R17C3_X08_D1;1;R17C6_S22;R17C6_VCC_S220;1;R17C6_C5;R17C6_S220_C5;1;R15C3_B3;R15C3_X03_B3;1;R15C3_X03;R15C3_VCC_X03;1;R15C3_B2;R15C3_X03_B2;1;R15C5_X08;R15C5_VCC_X08;1;R15C5_B5;R15C5_X08_B5;1;R17C5_X07;R17C5_VCC_X07;1;R17C5_D4;R17C5_X07_D4;1;R17C3_X08;R17C3_VCC_X08;1;R17C3_C4;R17C3_X08_C4;1;R17C4_X03;R17C4_VCC_X03;1;R17C4_D0;R17C4_X03_D0;1;VCC;;1;R17C5_W22;R17C5_VCC_W220;1;R17C5_C3;R17C5_W220_C3;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882121 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q_ALU_I0_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882120 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q[3]": {
+          "hide_name": 0,
+          "bits": [ 3882118 ] ,
+          "attributes": {
+            "ROUTING": "R15C4_X07;R15C4_N262_X07;1;R15C4_A3;R15C4_X07_A3;1;R18C4_SN20;R18C4_Q2_SN20;1;R17C4_N26;R17C4_N121_N260;1;R16C4_D7;R16C4_N261_D7;1;R18C4_Q2;;1;R18C4_N13;R18C4_Q2_N130;1;R17C4_B3;R17C4_N131_B3;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q[0]": {
+          "hide_name": 0,
+          "bits": [ 3882328 ] ,
+          "attributes": {
+            "ROUTING": "R15C5_X07;R15C5_N221_X07;1;R15C5_A4;R15C5_X07_A4;1;R16C5_N22;R16C5_Q2_N220;1;R15C5_X01;R15C5_N221_X01;1;R15C5_A6;R15C5_X01_A6;1;R16C5_Q2;;1;R16C5_S22;R16C5_Q2_S220;1;R17C5_X01;R17C5_S221_X01;1;R17C5_B4;R17C5_X01_B4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q[2]": {
+          "hide_name": 0,
+          "bits": [ 3882115 ] ,
+          "attributes": {
+            "ROUTING": "R18C4_N23;R18C4_Q3_N230;1;R16C4_X06;R16C4_N232_X06;1;R16C4_C7;R16C4_X06_C7;1;R17C4_N24;R17C4_N101_N240;1;R15C4_X05;R15C4_N242_X05;1;R15C4_A4;R15C4_X05_A4;1;R18C4_Q3;;1;R18C4_N10;R18C4_Q3_N100;1;R17C4_B4;R17C4_N101_B4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882325 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q[1]": {
+          "hide_name": 0,
+          "bits": [ 3882112 ] ,
+          "attributes": {
+            "ROUTING": "R15C4_A5;R15C4_N121_A5;1;R17C4_B5;R17C4_S121_B5;1;R16C4_B7;R16C4_X05_B7;1;R16C4_Q2;;1;R16C4_SN20;R16C4_Q2_SN20;1;R16C4_X05;R16C4_Q2_X05;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882354 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_15_Q[0]": {
+          "hide_name": 0,
+          "bits": [ 3882109 ] ,
+          "attributes": {
+            "ROUTING": "R16C5_N25;R16C5_Q5_N250;1;R15C5_A0;R15C5_N251_A0;1;R16C5_W13;R16C5_Q5_W130;1;R16C4_A7;R16C4_W131_A7;1;R16C5_Q5;;1;R16C5_S25;R16C5_Q5_S250;1;R17C5_X04;R17C5_S251_X04;1;R17C5_B0;R17C5_X04_B0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882352 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q[3]": {
+          "hide_name": 0,
+          "bits": [ 3882106 ] ,
+          "attributes": {
+            "ROUTING": "R15C5_D6;R15C5_X02_D6;1;R16C5_N23;R16C5_Q3_N230;1;R15C5_X02;R15C5_N231_X02;1;R15C5_A1;R15C5_X02_A1;1;R16C5_Q3;;1;R16C5_S23;R16C5_Q3_S230;1;R17C5_B1;R17C5_S231_B1;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882351 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q[2]": {
+          "hide_name": 0,
+          "bits": [ 3882103 ] ,
+          "attributes": {
+            "ROUTING": "R15C5_E20;R15C5_N101_E200;1;R15C5_A2;R15C5_E200_A2;1;R16C5_N10;R16C5_Q1_N100;1;R16C5_N20;R16C5_N100_N200;1;R15C5_C6;R15C5_N201_C6;1;R16C5_Q1;;1;R16C5_S21;R16C5_Q1_S210;1;R17C5_B2;R17C5_S211_B2;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I1_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882345 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q[1]": {
+          "hide_name": 0,
+          "bits": [ 3882100 ] ,
+          "attributes": {
+            "ROUTING": "R16C6_N21;R16C6_Q1_N210;1;R15C6_A5;R15C6_N211_A5;1;R17C6_B7;R17C6_X08_B7;1;R16C6_Q1;;1;R16C6_S21;R16C6_Q1_S210;1;R17C6_X08;R17C6_S211_X08;1;R17C6_B5;R17C6_X08_B5;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_9_Q_ALU_I0_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882315 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:12.14-12.37|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q[0]": {
+          "hide_name": 0,
+          "bits": [ 3882097 ] ,
+          "attributes": {
+            "ROUTING": "R17C7_W13;R17C7_Q2_W130;1;R17C6_A7;R17C6_W131_A7;1;R17C7_N22;R17C7_Q2_N220;1;R15C7_X01;R15C7_N222_X01;1;R15C7_A0;R15C7_X01_A0;1;R17C7_Q2;;1;R17C7_X05;R17C7_Q2_X05;1;R17C7_B0;R17C7_X05_B0;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_7_Q_ALU_I0_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882316 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_S0[3]": {
+          "hide_name": 0,
+          "bits": [ 3882094 ] ,
+          "attributes": {
+            "ROUTING": "R15C5_F6;;1;R15C5_S26;R15C5_F6_S260;1;R17C5_D7;R17C5_S262_D7;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_S0[2]": {
+          "hide_name": 0,
+          "bits": [ 3882093 ] ,
+          "attributes": {
+            "ROUTING": "R16C4_F7;;1;R16C4_S10;R16C4_F7_S100;1;R17C4_E24;R17C4_S101_E240;1;R17C5_C7;R17C5_E241_C7;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_S0[1]": {
+          "hide_name": 0,
+          "bits": [ 3882092 ] ,
+          "attributes": {
+            "ROUTING": "R17C6_F7;;1;R17C6_EW10;R17C6_F7_EW10;1;R17C5_B7;R17C5_W111_B7;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_S0[0]": {
+          "hide_name": 0,
+          "bits": [ 3882091 ] ,
+          "attributes": {
+            "ROUTING": "R16C6_F7;;1;R16C6_S13;R16C6_F7_S130;1;R17C6_W27;R17C6_S131_W270;1;R17C5_A7;R17C5_W271_A7;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "$PACKER_GND_NET": {
+          "hide_name": 1,
+          "bits": [ 3882394 ] ,
+          "attributes": {
+            "ROUTING": "R14C6_S23;R14C6_VSS_S230;1;R15C6_B3;R15C6_S231_B3;1;R15C6_D1;R15C6_E270_D1;1;R15C7_E27;R15C7_VSS_E270;1;R15C7_D0;R15C7_E270_D0;1;R15C6_D4;R15C6_W270_D4;1;R17C6_A2;R17C6_E251_A2;1;R15C5_D3;R15C5_S270_D3;1;R15C5_S27;R15C5_VSS_S270;1;R15C5_D2;R15C5_S270_D2;1;R15C4_D5;R15C4_W270_D5;1;R15C3_D3;R15C3_S270_D3;1;R15C3_E27;R15C3_VSS_E270;1;R15C3_D1;R15C3_E270_D1;1;R15C4_D3;R15C4_S270_D3;1;R17C5_A1;R17C5_E210_A1;1;R17C6_A5;R17C6_W210_A5;1;R15C4_W25;R15C4_VSS_W250;1;R15C4_B0;R15C4_W250_B0;1;R17C5_E21;R17C5_VSS_E210;1;R17C5_A0;R17C5_E210_A0;1;R17C5_A3;R17C5_N210_A3;1;R15C6_W27;R15C6_VSS_W270;1;R15C6_D5;R15C6_W270_D5;1;R15C4_D0;R15C4_E270_D0;1;R15C1_N27;R15C1_VSS_N270;1;R15C1_D6;R15C1_N270_D6;1;R17C5_N21;R17C5_VSS_N210;1;R17C5_A2;R17C5_N210_A2;1;R17C4_A2;R17C4_S251_A2;1;R15C6_E27;R15C6_VSS_E270;1;R15C6_D0;R15C6_E270_D0;1;R17C4_A0;R17C4_E210_A0;1;R15C5_D1;R15C5_E270_D1;1;R15C3_D4;R15C3_W270_D4;1;R17C5_A4;R17C5_W210_A4;1;R17C3_A3;R17C3_N210_A3;1;R17C4_A5;R17C4_W210_A5;1;R17C5_W21;R17C5_VSS_W210;1;R17C5_A5;R17C5_W210_A5;1;R15C4_B2;R15C4_S250_B2;1;R17C3_N21;R17C3_VSS_N210;1;R17C3_A2;R17C3_N210_A2;1;R15C5_D4;R15C5_W270_D4;1;R17C6_A0;R17C6_E210_A0;1;R17C7_E21;R17C7_VSS_E210;1;R17C7_A0;R17C7_E210_A0;1;R15C5_E27;R15C5_VSS_E270;1;R15C5_D0;R15C5_E270_D0;1;R15C5_W27;R15C5_VSS_W270;1;R15C5_D5;R15C5_W270_D5;1;R16C4_S25;R16C4_VSS_S250;1;R17C4_A3;R17C4_S251_A3;1;R15C4_S27;R15C4_VSS_S270;1;R15C4_D2;R15C4_S270_D2;1;R17C4_E21;R17C4_VSS_E210;1;R17C4_A1;R17C4_E210_A1;1;R15C6_E25;R15C6_VSS_E250;1;R15C6_B4;R15C6_E250_B4;1;R15C4_W27;R15C4_VSS_W270;1;R15C4_D4;R15C4_W270_D4;1;R15C1_S23;R15C1_VSS_S230;1;R15C1_C6;R15C1_S230_C6;1;R15C4_S25;R15C4_VSS_S250;1;R15C4_B3;R15C4_S250_B3;1;R17C4_W21;R17C4_VSS_W210;1;R17C4_A4;R17C4_W210_A4;1;R15C6_D2;R15C6_S270_D2;1;R17C6_E21;R17C6_VSS_E210;1;R17C6_A1;R17C6_E210_A1;1;R15C3_S27;R15C3_VSS_S270;1;R15C3_D2;R15C3_S270_D2;1;R17C3_A5;R17C3_W210_A5;1;R15C3_W27;R15C3_VSS_W270;1;R15C3_D5;R15C3_W270_D5;1;R17C6_W21;R17C6_VSS_W210;1;R17C6_A4;R17C6_W210_A4;1;R15C6_S27;R15C6_VSS_S270;1;R15C6_D3;R15C6_S270_D3;1;R17C3_W21;R17C3_VSS_W210;1;R17C3_A4;R17C3_W210_A4;1;R15C6_W25;R15C6_VSS_W250;1;R15C6_B0;R15C6_W250_B0;1;R15C4_E27;R15C4_VSS_E270;1;R15C4_D1;R15C4_E270_D1;1;VSS;;1;R17C5_E25;R17C5_VSS_E250;1;R17C6_A3;R17C6_E251_A3;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_S0[4]": {
+          "hide_name": 0,
+          "bits": [ 3882087 ] ,
+          "attributes": {
+            "ROUTING": "R17C4_OF6;;1;R17C4_E26;R17C4_OF6_E260;1;R17C5_SEL6;R17C5_E261_SEL6;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_I1": {
+          "hide_name": 0,
+          "bits": [ 3882086 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F7;;1;R17C5_I1MUX6;R17C5_F7_DUMMY_I1MUX6;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.13-151.15"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE_MUX2_LUT5_O_I0": {
+          "hide_name": 0,
+          "bits": [ 3882085 ] ,
+          "attributes": {
+            "ROUTING": "R17C5_F6;;1;R17C5_I0MUX6;R17C5_F6_DUMMY_I0MUX6;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:151.9-151.11"
+          }
+        },
+        "sys_rst_n_IBUF_I_O_LUT1_I0_F": {
+          "hide_name": 0,
+          "bits": [ 3882082 ] ,
+          "attributes": {
+            "ROUTING": "R16C6_LSR2;R16C6_X05_LSR2;1;R18C2_E24;R18C2_S242_E240;1;R18C4_X07;R18C4_E242_X07;1;R18C4_LSR1;R18C4_X07_LSR1;1;R16C3_LSR0;R16C3_X07_LSR0;1;R16C6_LSR1;R16C6_X05_LSR1;1;R17C2_LSR0;R17C2_X05_LSR0;1;R16C5_E20;R16C5_E252_E200;1;R16C6_X05;R16C6_E201_X05;1;R16C6_LSR0;R16C6_X05_LSR0;1;R16C5_LSR0;R16C5_X08_LSR0;1;R17C2_X05;R17C2_S241_X05;1;R17C2_LSR1;R17C2_X05_LSR1;1;R16C5_LSR2;R16C5_X08_LSR2;1;R16C4_X08;R16C4_E251_X08;1;R16C4_LSR0;R16C4_X08_LSR0;1;R18C2_LSR0;R18C2_X07_LSR0;1;R16C2_EW10;R16C2_F4_EW10;1;R16C3_E25;R16C3_E111_E250;1;R16C5_X08;R16C5_E252_X08;1;R16C5_LSR1;R16C5_X08_LSR1;1;R16C3_LSR2;R16C3_X07_LSR2;1;R16C4_E25;R16C4_E242_E250;1;R16C6_S25;R16C6_E252_S250;1;R17C6_E25;R17C6_S251_E250;1;R17C7_X08;R17C7_E251_X08;1;R17C7_LSR1;R17C7_X08_LSR1;1;R16C4_X07;R16C4_E242_X07;1;R16C4_LSR1;R16C4_X07_LSR1;1;R16C2_E24;R16C2_F4_E240;1;R16C3_X07;R16C3_E241_X07;1;R16C3_LSR1;R16C3_X07_LSR1;1;R16C2_F4;;1;R16C2_S24;R16C2_F4_S240;1;R18C2_X07;R18C2_S242_X07;1;R18C2_LSR1;R18C2_X07_LSR1;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFCE_CLK_CE": {
+          "hide_name": 0,
+          "bits": [ 3882081 ] ,
+          "attributes": {
+            "ROUTING": "R18C2_CE0;R18C2_X08_CE0;1;R17C2_CE1;R17C2_X06_CE1;1;R17C2_X06;R17C2_W232_X06;1;R17C2_CE0;R17C2_X06_CE0;1;R17C5_OF6;;1;R17C5_W13;R17C5_OF6_W130;1;R17C4_W23;R17C4_W131_W230;1;R17C2_S23;R17C2_W232_S230;1;R18C2_X08;R18C2_S231_X08;1;R18C2_CE1;R18C2_X08_CE1;1"
+          }
+        },
+        "sys_clk_IBUF_I_O": {
+          "hide_name": 0,
+          "bits": [ 3882079 ] ,
+          "attributes": {
+            "ROUTING": "R17C47_F6;;5;R17C2_CLK0;R17C2_GB00_CLK0;5;R17C4_GBO0;R17C4_GT00_GBO0;5;R20C4_GT00;R20C4_SPINE16_GT00;5;R10C28_SPINE16;R10C28_PCLKR1_SPINE16;5;R17C7_CLK1;R17C7_GB00_CLK1;5;R17C8_GBO0;R17C8_GT00_GBO0;5;R20C8_GT00;R20C8_SPINE16_GT00;5;R16C6_CLK0;R16C6_GB00_CLK0;5;R16C4_GBO0;R16C4_GT00_GBO0;5;R16C5_CLK0;R16C5_GB00_CLK0;5;R16C5_CLK1;R16C5_GB00_CLK1;5;R16C5_CLK2;R16C5_GB00_CLK2;5;R16C4_CLK1;R16C4_GB00_CLK1;5;R18C4_CLK1;R18C4_GB00_CLK1;5;R18C4_GBO0;R18C4_GT00_GBO0;5;R16C4_CLK0;R16C4_GB00_CLK0;5;R16C3_CLK2;R16C3_GB00_CLK2;5;R16C3_CLK1;R16C3_GB00_CLK1;5;R16C3_CLK0;R16C3_GB00_CLK0;5;R16C6_CLK1;R16C6_GB00_CLK1;5;R16C6_CLK2;R16C6_GB00_CLK2;5;R18C2_CLK0;R18C2_GB00_CLK0;5;R18C2_CLK1;R18C2_GB00_CLK1;5;R17C2_CLK1;R17C2_GB00_CLK1;5"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_3_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882360 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882364 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "led_OBUF_O_I[0]": {
+          "hide_name": 0,
+          "bits": [ 3882076 ] ,
+          "attributes": {
+            "ROUTING": "R16C2_W27;R16C2_N131_W270;1;R16C1_N27;R16C1_E272_N270;1;R15C1_A0;R15C1_N271_A0;1;R17C2_Q1;;1;R17C2_N13;R17C2_Q1_N130;1;R17C2_A3;R17C2_N130_A3;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882365 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "led_OBUF_O_I[1]": {
+          "hide_name": 0,
+          "bits": [ 3882073 ] ,
+          "attributes": {
+            "ROUTING": "R17C2_N10;R17C2_Q3_N100;1;R16C2_W20;R16C2_N101_W200;1;R16C1_D1;R16C1_W201_D1;1;R17C2_Q3;;1;R17C2_X02;R17C2_Q3_X02;1;R17C2_A2;R17C2_X02_A2;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_2_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882367 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "led_OBUF_O_I[2]": {
+          "hide_name": 0,
+          "bits": [ 3882070 ] ,
+          "attributes": {
+            "ROUTING": "R18C2_S27;R18C2_S131_S270;1;R20C2_S22;R20C2_S272_S220;1;R21C2_W22;R21C2_S221_W220;1;R21C1_D1;R21C1_E222_D1;1;R17C2_Q2;;1;R17C2_S13;R17C2_Q2_S130;1;R18C2_A2;R18C2_S131_A2;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I1_3_COUT": {
+          "hide_name": 0,
+          "bits": [ 3882369 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "src": "/Users/krasnomakov/Documents1/FPGA/20K_examples/top.v:13.20-13.34|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/arith_map.v:57.7-63.5|/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_sim.v:882.25-882.29",
+            "abc9_carry": "00000000000000000000000000000001"
+          }
+        },
+        "led_OBUF_O_I[3]": {
+          "hide_name": 0,
+          "bits": [ 3882067 ] ,
+          "attributes": {
+            "ROUTING": "R18C2_S22;R18C2_Q2_S220;1;R20C2_W22;R20C2_S222_W220;1;R20C1_S22;R20C1_E222_S220;1;R22C1_D1;R22C1_S222_D1;1;R18C2_Q2;;1;R18C2_X05;R18C2_Q2_X05;1;R18C2_A3;R18C2_X05_A3;1"
+          }
+        },
+        "sys_clk_IBUF_I_O_DFFC_CLK_Q_ALU_I0_2_SUM": {
+          "hide_name": 0,
+          "bits": [ 3882358 ] ,
+          "attributes": {
+            "ROUTING": " ",
+            "unused_bits": "0 "
+          }
+        },
+        "led_OBUF_O_I[4]": {
+          "hide_name": 0,
+          "bits": [ 3882064 ] ,
+          "attributes": {
+            "ROUTING": "R18C2_S23;R18C2_Q3_S230;1;R20C2_S23;R20C2_S232_S230;1;R22C2_S26;R22C2_S232_S260;1;R24C2_S27;R24C2_S262_S270;1;R25C2_W27;R25C2_S271_W270;1;R25C1_X08;R25C1_W271_X08;1;R25C1_D1;R25C1_X08_D1;1;R18C2_Q3;;1;R18C2_X02;R18C2_Q3_X02;1;R18C2_A1;R18C2_X02_A1;1"
+          }
+        },
+        "sys_rst_n_IBUF_I_O": {
+          "hide_name": 0,
+          "bits": [ 3882378 ] ,
+          "attributes": {
+            "ROUTING": "R5C1_F6;;1;R5C1_S26;R5C1_F6_S260;1;R7C1_S27;R7C1_S262_S270;1;R9C1_S27;R9C1_S272_S270;1;R11C1_S27;R11C1_S272_S270;1;R13C1_S27;R13C1_S272_S270;1;R15C1_S27;R15C1_S272_S270;1;R16C1_E27;R16C1_S271_E270;1;R16C2_A4;R16C2_E271_A4;1",
+            "src": "/Users/krasnomakov/.icicle/toolchains/2024-05-03/oss-cad-suite/libexec/../share/yosys/gowin/cells_map.v:130.20-130.21",
+            "force_downto": "00000000000000000000000000000001"
+          }
+        },
+        "led_OBUF_O_I[5]": {
+          "hide_name": 0,
+          "bits": [ 3882060 ] ,
+          "attributes": {
+            "ROUTING": "R19C2_S25;R19C2_S111_S250;1;R21C2_S25;R21C2_S252_S250;1;R23C2_S20;R23C2_S252_S200;1;R25C2_W20;R25C2_S202_W200;1;R25C1_S20;R25C1_E202_S200;1;R26C1_D1;R26C1_S201_D1;1;R18C2_Q1;;1;R18C2_SN10;R18C2_Q1_SN10;1;R17C2_A1;R17C2_N111_A1;1"
+          }
+        }
+      }
+    }
+  }
+}

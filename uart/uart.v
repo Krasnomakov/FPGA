@@ -1,3 +1,6 @@
+//this Verilog makes LEDs blink when a sequences ABC is received 
+//It uses a state machine to check for the sequence and set the LEDs
+
 `default_nettype none
 
 module uart

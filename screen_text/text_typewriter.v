@@ -1,3 +1,5 @@
+//probably an attempt to make a typewriter effect
+
 module textRow #(
     parameter ADDRESS_OFFSET = 8'd0,
     parameter DELAY_VALUE = 16'd50000 // Adjust this value for desired delay
