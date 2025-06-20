@@ -13,7 +13,7 @@ The core of this project is a UART module that receives and transmits data async
 - **Sequence-based LED Control**: A more complex implementation where a specific sequence of characters ('ABC') must be received to trigger the LEDs.
 - **State Diagrams**: The logic for these contributions is visually documented with state diagrams, which can be found in the project's `README.md`.
 
-You can find the project files and detailed explanations in the [UART directory](./UART).
+You can find the project files and detailed explanations in the [UART directory](https://github.com/Krasnomakov/FPGA/tree/main/uart).
 
 ## Other Projects
 
