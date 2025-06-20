@@ -2,7 +2,20 @@
 
 This repository contains Verilog/C projects with Tang Nano (4K/9K/20K) and Zybo Z7.
 
-## Projects
+## Featured Project: Enhanced UART Communication
+
+This project is the centerpiece of the repository, showcasing a significant expansion of a basic UART implementation. While many of the other projects are realizations of tutorials, this one involves custom logic to enhance its functionality.
+
+The core of this project is a UART module that receives and transmits data asynchronously. I've built upon the original tutorial by adding custom Verilog code that enables LED blinking patterns triggered by specific serial inputs.
+
+### Key Contributions:
+- **Character-based LED Control**: The FPGA can receive 'A', 'B', or 'C' to trigger different LED blinking patterns.
+- **Sequence-based LED Control**: A more complex implementation where a specific sequence of characters ('ABC') must be received to trigger the LEDs.
+- **State Diagrams**: The logic for these contributions is visually documented with state diagrams, which can be found in the project's `README.md`.
+
+You can find the project files and detailed explanations in the [UART directory](./UART).
+
+## Other Projects
 
 | Project | Description | Hardware | Toolchain | Links |
 |---|---|---|---|---|
