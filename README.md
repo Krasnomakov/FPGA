@@ -1,102 +1,21 @@
 # FPGA
+
 This repository contains Verilog/C projects with Tang Nano (4K/9K/20K) and Zybo Z7.
-Each directory is a complete and ready to program project with one or several Verilog (.v) examples. 
 
-## vivado (Vivado/Vitis, Zybo Z7 (Zynq 7010))
-Baremetal Software project with Vivado/Vitis and Zybo Z7 mainly with C. Find various implementations of C for LED-BTN combinations with randomness and different blinking periods.
+## Projects
 
-tutorial: https://digilent.com/reference/programmable-logic/guides/getting-started-with-ipi
-
-
-## fpga_project (GOWIN EDA)
-This directory contains several simple implementations for Tang Nano 9K. 
-
-- original blinky
-
-  tutorial: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-4K/examples/led.html
-
-  original code: https://github.com/sipeed/TangNano-9K-example/tree/main/led
-- added simple functions with Verilog
-- implemented pseudo randomness with LSFR
-- created pseudo random with state
-- calculation that takes random input and defines a LED
-- an attempt to implement constraints and initial logic for Travelling Salesman Problem with Verilog
-
-## picotiny (GOWIN EDA, Tang Nano 9K)
-The TangNano-9K-example project showcases a PicoRV32-based SoC with HDMI terminal, SPI Flash XIP, and custom UART ISP for flash programming. Its hardware includes PicoRV32, spimemio, and SimpleVOut modules, with address mapping for various peripherals. The firmware, built with dependencies like python, pyserial, and RISC-V GCC, enables flashing user firmware via ISP and features a UART terminal with LED toggling and flash mode configuration.
-
-tutorial: https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/picorv.html
-origianl code: https://github.com/sipeed/TangNano-9K-example/tree/main/picotiny 
-
-## camera_hdmi (GOWIN EDA, Tang Nano 4K)
-
-This project contains interface, controller, registers, memory interface, syntheis generation and other necessary components for Tang Nano 4K with OV2640 camera. 
-Video is sent to HDMI out and can be displayed on the screen. 
-
-original code: https://github.com/sipeed/TangNano-4K-example/tree/main/camera_hdmi
-
-
-## UART (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-The Verilog code defines a UART module that receives and transmits data asynchronously. It implements state machines for both receiving and transmitting data, with control logic to manage timing and data flow.
-
-My modifications include Verilog for receiving A,B, or C to make LEDs blink. And another version that receives a sequence ABC and then makes LEDs blink.
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-debugging/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/uart
-
-## screen (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-A text engine for rendering text on an OLED display was developed. It involves mapping character codes to screen pixel positions, using pre-defined font bitmaps to convert characters to pixels, and generating the pixel data for displaying text dynamically on the display.
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-graphics/ 
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/screen
-
-
-## screen_text (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang nano 9K)
-In this project, a text engine was developed to dynamically render text onto an OLED screen using pre-defined font bitmaps and mapping character positions to screen pixel addresses. The engine allows for displaying specific characters or strings by initializing memory buffers representing rows of text.
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-creating-a-text-engine/
-
-
-## screen_data (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-In this project, the Verilog files define the logic of an FPGA design for displaying text on a screen and handling serial communication. The top.v file serves as the top-level module, text.v generates the text to be displayed, screen.v controls the overall display, uart.v manages serial communication with a computer, and rows.v ensures correct row scanning on the screen.
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-data-visualization/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/screen_data
-
-## flash (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-This project covers the use of external flash in Tang Nano 9K FPGA board. 
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-reading-the-external-flash/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/flash 
-
-## lfsr (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-This project creates pseudo random naumbers with Linear Feedback Shift Register and visualizes them on OLED screen as bars of different size. 
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-generating-random/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/lfsr 
-
-## arbiter (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-This project covers sharing of common resources in one FPGA board. 
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-sharing-resources/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/arbiter 
-
-## ads1115_adc (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-This project uses analog signal converter and visualizes the data. 
-
-tutorial: https://learn.lushaylabs.com/i2c-adc-micro-procedures/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/ads1115_adc 
-
-## cpu (Open-source FPGA toolchain, Yosys, OSS-CAD, Tang Nano 9K)
-This project creates a CPU with FPGA and several programs on top of it. Simple blinking and button click and counting are now done on top of FPGA-based CPU with node. 
-
-tutorial: https://learn.lushaylabs.com/tang-nano-9k-first-processor/
-
-original code: https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/cpu 
+| Project | Description | Hardware | Toolchain | Links |
+|---|---|---|---|---|
+| **vivado** | Baremetal Software project with Vivado/Vitis and Zybo Z7 mainly with C. Find various implementations of C for LED-BTN combinations with randomness and different blinking periods. | <img src="https://img.shields.io/badge/Zybo_Z7-006400?style=for-the-badge" alt="Zybo Z7"> | <img src="https://img.shields.io/badge/Vivado-000000?style=for-the-badge&logo=xilinx&logoColor=white" alt="Vivado"> | [📖 Tutorial](https://digilent.com/reference/programmable-logic/guides/getting-started-with-ipi) |
+| **fpga_project** | Several simple implementations for Tang Nano 9K: original blinky, simple functions with Verilog, pseudo randomness with LSFR, pseudo random with state, calculation that takes random input and defines a LED, and an attempt to implement constraints and initial logic for Travelling Salesman Problem with Verilog. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Gowin-88B04B?style=for-the-badge" alt="Gowin"> | [📖 Tutorial](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-4K/examples/led.html)<br>[💻 Code](https://github.com/sipeed/TangNano-9K-example/tree/main/led) |
+| **picotiny** | A PicoRV32-based SoC with HDMI terminal, SPI Flash XIP, and custom UART ISP for flash programming. The hardware includes PicoRV32, spimemio, and SimpleVOut modules, with address mapping for various peripherals. The firmware, built with dependencies like python, pyserial, and RISC-V GCC, enables flashing user firmware via ISP and features a UART terminal with LED toggling and flash mode configuration. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Gowin-88B04B?style=for-the-badge" alt="Gowin"> | [📖 Tutorial](https://wiki.sipeed.com/hardware/en/tang/Tang-Nano-9K/examples/picorv.html)<br>[💻 Code](https://github.com/sipeed/TangNano-9K-example/tree/main/picotiny) |
+| **camera_hdmi** | Contains interface, controller, registers, memory interface, synthesis generation and other necessary components for Tang Nano 4K with OV2640 camera. Video is sent to HDMI out and can be displayed on the screen. | <img src="https://img.shields.io/badge/Tang_Nano_4K-ff9900?style=for-the-badge" alt="Tang Nano 4K"> | <img src="https://img.shields.io/badge/Gowin-88B04B?style=for-the-badge" alt="Gowin"> | [💻 Code](https://github.com/sipeed/TangNano-4K-example/tree/main/camera_hdmi) |
+| **UART** | A UART module that receives and transmits data asynchronously. It implements state machines for both receiving and transmitting data, with control logic to manage timing and data flow. My modifications include Verilog for receiving A,B, or C to make LEDs blink. And another version that receives a sequence ABC and then makes LEDs blink. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-debugging/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/uart) |
+| **screen** | A text engine for rendering text on an OLED display was developed. It involves mapping character codes to screen pixel positions, using pre-defined font bitmaps to convert characters to pixels, and generating the pixel data for displaying text dynamically on the display. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-graphics/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/screen) |
+| **screen_text** | A text engine was developed to dynamically render text onto an OLED screen using pre-defined font bitmaps and mapping character positions to screen pixel addresses. The engine allows for displaying specific characters or strings by initializing memory buffers representing rows of text. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-creating-a-text-engine/) |
+| **screen_data** | The Verilog files define the logic of an FPGA design for displaying text on a screen and handling serial communication. The top.v file serves as the top-level module, text.v generates the text to be displayed, screen.v controls the overall display, uart.v manages serial communication with a computer, and rows.v ensures correct row scanning on the screen. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-data-visualization/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/screen_data) |
+| **flash** | This project covers the use of external flash in Tang Nano 9K FPGA board. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-reading-the-external-flash/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/flash) |
+| **lfsr** | This project creates pseudo random numbers with Linear Feedback Shift Register and visualizes them on OLED screen as bars of different size. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-generating-random/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/lfsr) |
+| **arbiter** | This project covers sharing of common resources in one FPGA board. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-sharing-resources/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/arbiter) |
+| **ads1115_adc** | This project uses analog signal converter and visualizes the data. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/i2c-adc-micro-procedures/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/ads1115_adc) |
+| **cpu** | This project creates a CPU with FPGA and several programs on top of it. Simple blinking and button click and counting are now done on top of FPGA-based CPU with node. | <img src="https://img.shields.io/badge/Tang_Nano_9K-ff9900?style=for-the-badge" alt="Tang Nano 9K"> | <img src="https://img.shields.io/badge/Yosys-222222?style=for-the-badge&logo=yosys&logoColor=white" alt="Yosys"> | [📖 Tutorial](https://learn.lushaylabs.com/tang-nano-9k-first-processor/)<br>[💻 Code](https://github.com/lushaylabs/tangnano9k-series-examples/tree/master/cpu) |
