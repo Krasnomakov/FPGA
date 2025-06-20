@@ -4,8 +4,6 @@ This repository contains Verilog/C projects with Tang Nano (4K/9K/20K) and Zybo 
 
 ## Featured Project: Enhanced UART Communication
 
-This project is the centerpiece of the repository, showcasing a significant expansion of a basic UART implementation. While many of the other projects are realizations of tutorials, this one involves custom logic to enhance its functionality.
-
 The core of this project is a UART module that receives and transmits data asynchronously. I've built upon the original tutorial by adding custom Verilog code that enables LED blinking patterns triggered by specific serial inputs.
 
 ### Key Contributions:
