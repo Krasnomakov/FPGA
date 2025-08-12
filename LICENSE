@@ -1,0 +1,83 @@
+Monada Dominion Non-Commercial No-Derivatives Source License (MD-NC-ND) v1.0
+
+IMPORTANT: THIS IS NOT AN OPEN SOURCE LICENSE. IT DOES NOT GRANT PERMISSION FOR COMMERCIAL USE OR FOR DISTRIBUTION OF MODIFIED VERSIONS. BY USING ANY PORTION OF THE LICENSED MATERIAL YOU ACCEPT THESE TERMS.
+
+0. Definitions
+"Licensor" means the copyright holder(s) listed in the copyright notice(s).
+"Licensed Material" means the source code, build scripts, asset files, and accompanying documentation in this repository (the "Project").
+
+"Source Form" means the preferred form for making modifications, including all associated build or configuration files.
+
+"Verbatim Copy" means an exact, unmodified copy of the Licensed Material, preserving all file contents and notices.
+
+"Non-Commercial Use" means any use that (a) is not conducted for or directed toward commercial advantage or monetary compensation; and (b) is not incorporated into, or used to provision, a product or service offered for a fee, subscription, advertising revenue, or other consideration. Academic research, personal study, internal evaluation by a non-profit organization, and classroom teaching are Non-Commercial Uses provided no fee is charged specifically for access to, or use of, the Licensed Material beyond cost-recovery for media or hosting.
+
+"Commercial Use" means any use that is not Non-Commercial Use. Operating the Licensed Material (modified or unmodified) as part of a hosted or managed service for third parties is Commercial Use.
+
+1. Grant of Limited Rights
+Subject to your full compliance with this License, the Licensor grants you a personal, worldwide, revocable, non-exclusive, non-transferable, royalty-free license to:
+ (a) Use and execute the Licensed Material in Source Form or compiled form strictly for Non-Commercial Use; and
+ (b) Create temporary, incidental copies (e.g., in object code, build artifacts, caches) necessary for such Non-Commercial Use; and
+ (c) Distribute Verbatim Copies for Non-Commercial Use, provided Section 4 (Attribution & Notice) is satisfied.
+
+2. No Derivatives / Modification Restriction
+You may not modify, adapt, translate, reverse engineer (except to the extent required by applicable law), or create derivative works of the Licensed Material, except that you may make purely ephemeral modifications strictly necessary to (i) configure build parameters (e.g., editing a .env or config file), or (ii) apply security patches you authored for internal Non-Commercial Use. ANY distribution of a modified or derivative version is expressly prohibited.
+
+3. Prohibited Activities (Without a Separate Commercial / Derivative License)
+Without prior written permission from the Licensor you must NOT:
+ (a) Engage in Commercial Use of the Licensed Material (modified or unmodified);
+ (b) Offer, sell, rent, lease, sublicense, or otherwise commercialize the Licensed Material;
+ (c) Provide the Licensed Material (modified or unmodified) as part of a service, SaaS, hosted, or managed offering;
+ (d) Distribute modified, patched, combined, or derivative versions;
+ (e) Remove, alter, or obscure copyright, license, trademark, or attribution notices;
+ (f) Circumvent or remove any technical protection or usage limitations applied by the Licensor.
+
+4. Attribution & Notice
+All Verbatim Copies you distribute must retain in all files (or in a top-level NOTICE file if present):
+ - Original copyright notice(s);
+ - This License text in full;
+ - A notice substantially in the form: "This distribution contains the Monada Dominion project licensed for NON-COMMERCIAL, NO-DERIVATIVES use under the MD-NC-ND License v1.0. See LICENSE.";
+ - A URL or repository reference to the canonical upstream source (if provided by Licensor).
+
+5. Patent Notice
+NO PATENT LICENSE IS GRANTED OR IMPLIED BY THIS LICENSE. If you initiate or threaten patent litigation (including cross-claim or counterclaim) alleging that the Licensed Material or a contribution thereto infringes any patent, your rights under this License terminate immediately.
+
+6. Feedback
+You may (but are not required to) submit ideas, feedback, or suggestions ("Feedback"). By submitting Feedback you grant Licensor a perpetual, irrevocable, worldwide, transferable, sublicensable, royalty-free license to use, incorporate, and distribute the Feedback without obligation or attribution.
+
+7. Termination
+This License terminates automatically without notice if you breach any term. Upon termination you must cease all use and distribution, destroy local copies (excluding automatically generated backup archives retained unintentionally), and certify compliance upon request. Sections 4–13 survive termination.
+
+Licensor may, at its sole discretion, offer you a different (e.g., commercial or derivative) license under separate written terms.
+
+8. Disclaimer of Warranty
+THE LICENSED MATERIAL IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. YOUR USE IS AT YOUR SOLE RISK.
+
+9. Limitation of Liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT WILL LICENSOR OR CONTRIBUTORS BE LIABLE FOR ANY INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES; OR FOR ANY LOSS OF PROFITS, REVENUE, DATA, GOODWILL, OR BUSINESS INTERRUPTION; OR FOR SUBSTITUTE GOODS OR SERVICES; ARISING OUT OF OR RELATED TO THIS LICENSE OR USE OF THE LICENSED MATERIAL, HOWEVER CAUSED AND UNDER ANY THEORY OF LIABILITY, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TOTAL AGGREGATE LIABILITY SHALL NOT EXCEED ONE HUNDRED (100) USD OR THE AMOUNT (IF ANY) PAID TO LICENSOR FOR THE LICENSED MATERIAL DURING THE SIX (6) MONTHS PRIOR TO THE CLAIM.
+
+10. Compliance with Law
+You are solely responsible for compliance with all applicable laws, regulations, and third-party rights in connection with your use of the Licensed Material.
+
+11. Severability
+If any provision of this License is held unenforceable, that provision will be reformed only to the extent necessary to make it enforceable. The remaining provisions remain in full force and effect.
+
+12. No Waiver
+Failure of Licensor to enforce any right or provision shall not constitute a waiver of future enforcement of that right or provision.
+
+13. Governing Law (Optional)
+If the Licensor designates a jurisdiction in the copyright notice (e.g., "Governing Law: State / Country"), this License will be governed by the laws of that jurisdiction excluding its conflict-of-law principles. Otherwise, governing law is determined by applicable conflict-of-law rules.
+
+14. Entire Agreement
+This License constitutes the entire agreement between you and the Licensor concerning the Licensed Material and supersedes all prior or contemporaneous understandings regarding its subject matter.
+
+15. Versioning
+The Licensor may publish new versions of this License with a unique version number. Unless explicitly stated otherwise, you may continue to use the Licensed Material under the version originally applied.
+
+16. Contact for Commercial / Derivative Licensing
+To request commercial, derivative, or broader usage rights, contact: [make an issue]. Granting such rights is at Licensor's sole discretion.
+
+Copyright (c) 2025 Monada Dominion and/or individual contributors as noted.
+All rights reserved except as expressly granted herein.
+
+END OF LICENSE
